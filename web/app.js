@@ -362,7 +362,7 @@ function viewCategory(id) {
   const c = state.cats.find((x) => x.id === id);
   if (!c) return viewMissing();
   const tips = c.tips && c.tips.length
-    ? `<details class="tips" open><summary>💡 Good to know</summary><ul>${c.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></details>` : '';
+    ? `<details class="tips" data-cat="${c.id}"${(state.settings.tipsClosed || {})[c.id] ? '' : ' open'}><summary>💡 Good to know</summary><ul>${c.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></details>` : '';
   const words = (c.vocab || []).map((v) => state.topics.find((t) => t.id === v)).filter(Boolean);
   return `<div class="wrap">
     ${head(c.icon, c.name, c.blurb)}
@@ -474,7 +474,7 @@ function viewPracticeHome() {
   const scopes = [
     ['favs', '⭐', 'My favorites', Object.keys(state.favs).length],
     ['hear', '👂', 'What you\'ll hear (listening)', state.entries.filter((e) => e.hear).length],
-    ['all', '🎲', 'Everything, mixed', state.entries.filter((e) => e.kind === 'phrase').length],
+    ['all', '🎲', 'Everything, mixed', practicePool('all').length],
   ];
   return `<div class="wrap">
     ${head('🎙️', 'Practice', 'See the English, say it out loud, then tap to hear how it should sound.')}
@@ -502,7 +502,8 @@ function practicePool(scope) {
 }
 
 function startPractice(scope) {
-  const pool = practicePool(scope).slice();
+  // Fill-in-the-blank phrases like "(place) made ..." can't be drilled.
+  const pool = practicePool(scope).filter((e) => e.romaji && !e.romaji.includes('('));
   for (let i = pool.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [pool[i], pool[j]] = [pool[j], pool[i]];
@@ -788,6 +789,16 @@ function autoPlayHear() {
   const p = state.practice;
   if (p && p.mode === 'hear' && p.queue.length) setTimeout(() => tts.speak(p.queue[0].ja, false), 250);
 }
+
+// Remember which category tip boxes were collapsed.
+document.addEventListener('toggle', (ev) => {
+  const d = ev.target;
+  if (!d.matches || !d.matches('details.tips')) return;
+  const closed = Object.assign({}, state.settings.tipsClosed);
+  if (d.open) delete closed[d.dataset.cat]; else closed[d.dataset.cat] = true;
+  state.settings.tipsClosed = closed;
+  store.set('settings', state.settings);
+}, true);
 
 document.addEventListener('change', (ev) => {
   const key = ev.target.dataset && ev.target.dataset.set;

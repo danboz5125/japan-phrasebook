@@ -29,7 +29,7 @@
     ["Nausea", "吐き気", "はきけ", "hakike", "I feel sick: hakike ga shimasu.", "sick vomit"],
     ["Dizziness", "めまい", "めまい", "memai", "", "dizzy faint"],
     ["Allergy", "アレルギー", "アレルギー", "arerugī", "", "allergic"],
-    ["Rash", "発疹", "ほっしん", "hosshin", "", "skin"],
+    ["Rash", "発疹", "はっしん", "hasshin", "Doctors may say hosshin.", "skin"],
     ["Itchy", "かゆい", "かゆい", "kayui", "", "skin itch"],
     ["Burn", "やけど", "やけど", "yakedo", "", "injury"],
     ["Sprain", "捻挫", "ねんざ", "nenza", "", "injury ankle"],

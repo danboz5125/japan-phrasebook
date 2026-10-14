@@ -14,7 +14,7 @@
     ["Discount", "割引", "わりびき", "waribiki", "", "sale off"],
     ["Sale", "セール", "セール", "sēru", "", "discount"],
     ["Half price", "半額", "はんがく", "hangaku", "Sticker on supermarket food late in the day.", "discount 50%"],
-    ["Tax-free", "免税", "めんぜい", "menzei", "Show your passport. Usually ¥5,000+ in one store.", "tax free duty"],
+    ["Tax-free", "免税", "めんぜい", "menzei", "Show your passport; ¥5,000+ in one store. From Nov 1, 2026 you pay the tax, then get it refunded when you leave Japan.", "tax free duty"],
     ["Tax-free counter", "免税カウンター", "めんぜいカウンター", "menzei kauntā", "Department stores process tax-free here.", "tax free"],
     ["Passport", "パスポート", "パスポート", "pasupōto", "", "id"],
     ["Cashier / register", "レジ", "レジ", "reji", "", "checkout pay"],

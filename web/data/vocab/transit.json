@@ -21,7 +21,7 @@
     ["Seat", "座席", "ざせき", "zaseki", "", "seat"],
     ["Window seat", "窓側", "まどがわ", "madogawa", "", "seat"],
     ["Aisle seat", "通路側", "つうろがわ", "tsūrogawa", "", "seat"],
-    ["Priority seat", "優先席", "ゆうせんせき", "yūsen-seki", "For elderly, pregnant, disabled. Phones off nearby.", "seat"],
+    ["Priority seat", "優先席", "ゆうせんせき", "yūsen-seki", "For elderly, pregnant, disabled. Phones on silent, no calls.", "seat"],
     ["Ticket", "切符", "きっぷ", "kippu", "", "fare"],
     ["Ticket machine", "券売機", "けんばいき", "kenbaiki", "", "vending"],
     ["JR ticket office", "みどりの窓口", "みどりの まどぐち", "midori no madoguchi", "For shinkansen and reserved seats.", "ticket counter office"],

@@ -44,7 +44,7 @@
     ["Building", "ビル", "ビル", "biru"],
     ["Entrance", "入口", "いりぐち", "iriguchi", "", "way in door"],
     ["Exit", "出口", "でぐち", "deguchi", "", "way out door"],
-    ["Floor (level)", "〜階", "〜かい", "~kai", "3rd floor is sangai, not sankai.", "level storey"],
+    ["Floor (level)", "〜階", "〜かい", "~kai", "3rd floor is usually sangai (sankai is also heard).", "level storey"],
     ["1st floor (ground)", "1階", "いっかい", "ikkai", "Ground floor counts as 1 in Japan.", "level storey"],
     ["2nd floor", "2階", "にかい", "nikai", "", "level storey upstairs"],
     ["3rd floor", "3階", "さんがい", "sangai", "", "level storey"],

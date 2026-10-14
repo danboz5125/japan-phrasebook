@@ -69,7 +69,7 @@
     ["There is (people, animals)", "います", "います", "imasu", "Dictionary form: いる iru. For living things.", "exist"],
     ["Do", "します", "します", "shimasu", "Dictionary form: する suru.", "make"],
     ["Can (do)", "できます", "できます", "dekimasu", "Dictionary form: できる dekiru.", "able possible"],
-    ["Know", "知っています", "しって います", "shitte imasu", "Dictionary form: 知る shiru. I don't know: shirimasen.", "aware"],
+    ["Know", "知っています", "しって います", "shitte imasu", "Dictionary form: 知る shiru. I don't know: shirimasen (wakarimasen sounds softer).", "aware"],
     ["Smoke", "吸います", "すいます", "suimasu", "Dictionary form: 吸う suu.", "cigarette"]
   ]
 }
