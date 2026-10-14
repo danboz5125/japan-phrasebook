@@ -40,7 +40,8 @@
         ["Where is the lost and found?", "忘れ物センターはどこですか？", "わすれもの センターは どこ ですか？", "Wasuremono sentā wa doko desu ka?", "", "lost found"],
         ["My bag was stolen", "かばんを盗まれました", "かばんを ぬすまれました", "Kaban o nusumaremashita", "", "stolen theft"],
         ["Where is the police box?", "交番はどこですか？", "こうばんは どこ ですか？", "Kōban wa doko desu ka?", "", "police koban"],
-        ["I need a report for my insurance", "保険のために証明書が必要です", "ほけんの ために しょうめいしょが ひつよう です", "Hoken no tame ni shōmeisho ga hitsuyō desu", "", "police report insurance"],
+        ["I'd like to report a theft", "盗難届を出したいです", "とうなんとどけを だしたい です", "Tōnan todoke o dashitai desu", "Ask for the report number. Your travel insurance will want it.", "police report stolen insurance"],
+        ["I'd like to report a lost item", "遺失届を出したいです", "いしつとどけを だしたい です", "Ishitsu todoke o dashitai desu", "Get the report number for insurance.", "police report lost insurance"],
         ["Please contact the US Embassy", "アメリカ大使館に連絡してください", "アメリカ たいしかんに れんらく して ください", "Amerika taishikan ni renraku shite kudasai", "", "embassy"]
       ]},
     {"title": "Earthquakes & disasters", "items": [

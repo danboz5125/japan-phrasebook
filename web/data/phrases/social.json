@@ -24,8 +24,8 @@
         ["Do you live around here?", "この辺にお住まいですか？", "この へんに おすまい ですか？", "Kono hen ni o-sumai desu ka?", "", "live local"],
         ["That's interesting", "面白いですね", "おもしろい ですね", "Omoshiroi desu ne", "", "interesting fun"],
         ["No, I still have a long way to go", "いいえ、まだまだです", "いいえ、 まだまだ です", "Iie, mada mada desu", "The humble reply to any compliment on your Japanese.", "humble compliment"],
-        ["Can I take a picture with you?", "一緒に写真を撮ってもいいですか？", "いっしょに しゃしんを とっても いい ですか？", "Issho ni shashin o totte mo ii desu ka?", "Always ask first. Never photograph maiko in Gion without asking.", "photo selfie picture"],
-        ["Are you on Instagram?", "インスタやってますか？", "インスタ やってますか？", "Insuta yattemasu ka?", "LINE is Japan's main chat app. Swap in rain for LINE.", "instagram line contact sns"]
+        ["Can I take a picture with you?", "一緒に写真を撮ってもいいですか？", "いっしょに しゃしんを とっても いい ですか？", "Issho ni shashin o totte mo ii desu ka?", "Always ask first. In Gion, don't stop or photograph maiko and geiko at all: they're working.", "photo selfie picture"],
+        ["Are you on Instagram?", "インスタやってますか？", "インスタ やってますか？", "Insuta yattemasu ka?", "LINE is Japan's main chat app. For LINE, say rain yattemasu ka?", "instagram line contact sns"]
       ]},
     {"title": "Thanks & goodbyes", "items": [
         ["Thank you for everything", "いろいろありがとうございました", "いろいろ ありがとう ございました", "Iroiro arigatō gozaimashita", "When someone has helped you a lot.", "thanks"],

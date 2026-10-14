@@ -15,7 +15,7 @@
     ["Sake (Japanese rice wine)", "日本酒", "にほんしゅ", "nihonshu", "Say nihonshu. Sake alone can mean any alcohol.", "sake rice wine"],
     ["Alcohol / sake", "酒", "さけ", "sake", "General word for alcohol.", "alcohol booze"],
     ["Local sake", "地酒", "じざけ", "jizake", "Regional sake. Fushimi in Kyoto is famous.", "sake local"],
-    ["Cold sake (room temp)", "冷や", "ひや", "hiya", "Traditionally room temperature. Ask if unsure.", "sake cold"],
+    ["Sake, unheated (hiya)", "冷や", "ひや", "hiya", "Traditionally room temperature, though some bars serve it chilled. For cold, say reishu. Ask if unsure.", "sake cold"],
     ["Chilled sake", "冷酒", "れいしゅ", "reishu", "Refrigerated sake.", "sake cold"],
     ["Hot sake", "熱燗", "あつかん", "atsukan", "", "sake hot warm"],
     ["Warm sake", "ぬる燗", "ぬるかん", "nurukan", "Gently warmed, body temperature.", "sake warm"],

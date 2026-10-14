@@ -30,7 +30,7 @@
       ]},
     {"title": "Cover charge & all-you-can-drink", "items": [
         ["Is there a cover charge?", "チャージはありますか？", "チャージは ありますか？", "Chāji wa arimasu ka?", "Bars may charge ¥500 to ¥1,000 per person. Ask before sitting.", "cover charge fee"],
-        ["Is this the otōshi?", "これはお通しですか？", "これは おとおし ですか？", "Kore wa otōshi desu ka?", "The small dish you didn't order. It's part of the cover charge.", "otoshi snack cover"],
+        ["Is this the otōshi?", "これはお通しですか？", "これは おとおし ですか？", "Kore wa otōshi desu ka?", "The small dish you didn't order. It's part of the cover charge. In Osaka and Kyoto it's often called tsukidashi.", "otoshi snack cover"],
         ["Do you have all-you-can-drink?", "飲み放題はありますか？", "のみほうだいは ありますか？", "Nomihōdai wa arimasu ka?", "", "nomihodai unlimited"],
         ["How long is the all-you-can-drink?", "飲み放題は何時間ですか？", "のみほうだいは なんじかん ですか？", "Nomihōdai wa nan-jikan desu ka?", "", "nomihodai time"],
         ["Which is the all-you-can-drink menu?", "飲み放題のメニューはどれですか？", "のみほうだいの メニューは どれ ですか？", "Nomihōdai no menyū wa dore desu ka?", "Only drinks on that list are included.", "nomihodai menu"],

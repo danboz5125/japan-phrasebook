@@ -11,7 +11,7 @@
         ["Kyoto", "京都", "きょうと", "Kyōto", "Two syllables: Kyoh-to. Not Kee-yo-to.", "vowel"]
       ]},
     {"title": "Double consonants get a tiny pause", "items": [
-        ["Came", "来て", "きて", "Kite", "No pause.", "consonant"],
+        ["Come! (casual request)", "来て", "きて", "Kite", "No pause.", "consonant"],
         ["Stamp", "切手", "きって", "Kitte", "Pause before the t: kit-te.", "consonant"],
         ["Matcha green tea", "抹茶", "まっちゃ", "Matcha", "Mat-cha, with a catch in the middle.", "consonant"],
         ["Ticket", "切符", "きっぷ", "Kippu", "Kip-pu.", "consonant"],
@@ -28,7 +28,7 @@
         ["Ramen", "ラーメン", "ラーメン", "Rāmen", "Light tap r, long ā: \"lah-men\" is closer than \"ray-men\".", "r"],
         ["Toilet", "トイレ", "トイレ", "Toire", "\"Toy-reh\", with a light tapped r.", "r bathroom"],
         ["Pretty / clean", "きれい", "きれい", "Kirei", "Kee-reh, with a tapped r.", "r"],
-        ["Japanese inn", "旅館", "りょかん", "Ryokan", "Two beats: ryo-kan. Not ree-oh-kan.", "r"],
+        ["Japanese inn", "旅館", "りょかん", "Ryokan", "Two syllables: ryo-kan. Not ree-oh-kan.", "r"],
         ["Arigatō", "ありがとう", "ありがとう", "Arigatō", "The r is a quick tongue tap, like the tt in American \"butter\".", "r"]
       ]}
   ]

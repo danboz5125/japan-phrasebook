@@ -41,7 +41,7 @@
        "Queue at the floor markings on the platform and let people off first.",
        "Tokyo stands on the LEFT of escalators. Osaka stands on the RIGHT. Kyoto is mixed.",
        "Taxi doors open and close by themselves. Don't touch the rear door.",
-       "An IC card (Suica, PASMO, ICOCA, or the one in Google Wallet) works on almost all trains, buses and konbini."
+       "An IC card (Suica, PASMO or ICOCA, as a card or in Apple Wallet) works on almost all trains, buses and konbini. Suica in Google Wallet only works on Android phones bought in Japan, so with a US phone buy a physical card at a station ticket machine and top it up with cash."
      ]},
     {"id": "hotel", "name": "Hotel & ryokan", "icon": "🏨", "blurb": "Check-in, luggage, Wi-Fi and ryokan life.",
      "vocab": ["lodging"],
@@ -56,7 +56,7 @@
      "tips": [
        "Put cash or your card in the little tray by the register, not in the cashier's hand.",
        "Bags cost a few yen. The cashier will ask if you want one.",
-       "Tax-free needs your physical passport. From November 1, 2026 Japan switches to a refund system: pay full price, get the tax back at customs when you leave.",
+       "Tax-free needs your physical passport. Until October 31, 2026 the tax comes off at the register. From November 1, 2026 you pay full price, scan your passport at the airport before check-in, and the store refunds the tax afterwards.",
        "Haggling isn't done, except maybe at flea markets."
      ]},
     {"id": "sightseeing", "name": "Sightseeing & tickets", "icon": "🎟️", "blurb": "Tickets, photos, lockers and opening hours.",
@@ -69,7 +69,7 @@
     {"id": "directions", "name": "Directions", "icon": "🧭", "blurb": "Asking the way, left, right, and near or far.",
      "vocab": ["places"],
      "tips": [
-       "Point at a map on your phone and ask: koko wa doko desu ka? (Where is this?)",
+       "Point at a map on your phone and say: koko ni ikitai desu (I want to go here).",
        "Police boxes (kōban) are everywhere and officers happily give directions.",
        "Station staff and konbini clerks are also good people to ask."
      ]},

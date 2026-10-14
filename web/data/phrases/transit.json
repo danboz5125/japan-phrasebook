@@ -28,7 +28,7 @@
     {"title": "Shinkansen", "items": [
         ["A shinkansen ticket to (place), please", "〜まで新幹線の切符をお願いします", "〜まで しんかんせんの きっぷを おねがい します", "(place) made shinkansen no kippu o onegai shimasu", "", "bullet train ticket"],
         ["A reserved seat, please", "指定席でお願いします", "していせきで おねがい します", "Shitei-seki de onegai shimasu", "", "reserved shinkansen"],
-        ["Non-reserved seat", "自由席でお願いします", "じゆうせきで おねがい します", "Jiyū-seki de onegai shimasu", "Cheaper, first come first served. Cars 1 to 3 on most trains.", "unreserved shinkansen"],
+        ["A non-reserved seat, please", "自由席でお願いします", "じゆうせきで おねがい します", "Jiyū-seki de onegai shimasu", "Cheaper, first come first served. Cars 1 to 3 on most trains.", "unreserved shinkansen"],
         ["Two seats together, please", "隣同士の席をお願いします", "となりどうしの せきを おねがい します", "Tonari-dōshi no seki o onegai shimasu", "", "together seats friend"],
         ["A window seat, please", "窓側の席をお願いします", "まどがわの せきを おねがい します", "Madogawa no seki o onegai shimasu", "Tokyo to Kyoto: seat E on the right side faces Mt Fuji.", "window fuji"],
         ["An aisle seat, please", "通路側の席をお願いします", "つうろがわの せきを おねがい します", "Tsūrogawa no seki o onegai shimasu", "", "aisle"],
@@ -51,7 +51,7 @@
     {"title": "Buses", "items": [
         ["Does this bus go to (place)?", "このバスは〜に行きますか？", "この バスは 〜に いきますか？", "Kono basu wa (place) ni ikimasu ka?", "", "bus"],
         ["Where's the bus stop for (place)?", "〜行きのバス停はどこですか？", "〜いきの バスていは どこ ですか？", "(place) iki no basu-tei wa doko desu ka?", "", "bus stop"],
-        ["Do I pay when I get off?", "降りる時に払いますか？", "おりる ときに はらいますか？", "Oriru toki ni haraimasu ka?", "Kyoto city buses: get on at the back, tap your IC card and pay at the front when you leave.", "bus pay kyoto"],
+        ["Do I pay when I get off?", "降りる時に払いますか？", "おりる ときに はらいますか？", "Oriru toki ni haraimasu ka?", "Most Kyoto city buses: board at the back, tap or pay at the front when you leave. Some routes board at the front, so follow the door signs.", "bus pay kyoto"],
         ["I'm getting off", "降ります", "おります", "Orimasu", "Press the stop button before your stop too.", "bus off"],
         ["Please tell me when we reach (place)", "〜に着いたら教えてください", "〜に ついたら おしえて ください", "(place) ni tsuitara oshiete kudasai", "", "bus tell arrive"]
       ]},

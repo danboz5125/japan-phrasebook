@@ -11,7 +11,7 @@
         ["I have a reservation", "予約しています", "よやく して います", "Yoyaku shite imasu", "", "booking"],
         ["The reservation is under (name)", "〜の名前で予約しています", "〜の なまえで よやく して います", "(name) no namae de yoyaku shite imasu", "Say your name first.", "booking"],
         ["The counter is fine", "カウンターでも大丈夫です", "カウンターでも だいじょうぶ です", "Kauntā demo daijōbu desu", "Counter seats are often faster to get.", "seat"],
-        ["Non-smoking seats, please", "禁煙席をお願いします", "きんえんせきを おねがい します", "Kin'en-seki o onegai shimasu", "Many small izakaya still allow smoking.", "smoke"],
+        ["Non-smoking seats, please", "禁煙席をお願いします", "きんえんせきを おねがい します", "Kin'en-seki o onegai shimasu", "Most restaurants are smoke-free now, but some small izakaya and bars still allow smoking.", "smoke"],
         ["Can I sit here?", "ここに座ってもいいですか？", "ここに すわっても いい ですか？", "Koko ni suwatte mo ii desu ka?", "", "seat"]
       ]},
     {"title": "What you'll hear", "hear": true, "items": [
@@ -49,7 +49,7 @@
         ["Small plates for sharing, please", "取り皿をください", "とりざらを ください", "Torizara o kudasai", "", "share"],
         ["To go, please", "持ち帰りで", "もちかえりで", "Mochikaeri de", "", "takeout take away"],
         ["To eat here", "店内で", "てんないで", "Tennai de", "", "eat in"],
-        ["Can I take the leftovers home?", "持ち帰りできますか？", "もちかえり できますか？", "Mochikaeri dekimasu ka?", "Many restaurants say no for food safety. Don't push.", "takeout doggy bag"],
+        ["Can I take the leftovers home?", "残りを持ち帰ってもいいですか？", "のこりを もちかえっても いい ですか？", "Nokori o mochikaette mo ii desu ka?", "Many restaurants say no for food safety. Don't push.", "takeout doggy bag"],
         ["How do I use the ticket machine?", "券売機の使い方を教えてください", "けんばいきの つかいかたを おしえて ください", "Kenbaiki no tsukaikata o oshiete kudasai", "", "ticket machine ramen"]
       ]},
     {"title": "Diet & allergies", "items": [
@@ -81,7 +81,7 @@
         ["Firm noodles, please", "麺かためでお願いします", "めん かためで おねがい します", "Men katame de onegai shimasu", "", "ramen"],
         ["Soft noodles, please", "麺やわらかめでお願いします", "めん やわらかめで おねがい します", "Men yawarakame de onegai shimasu", "", "ramen"],
         ["Normal, please", "普通でお願いします", "ふつうで おねがい します", "Futsū de onegai shimasu", "The safe answer when asked about noodle firmness, oil or saltiness.", "ramen regular"],
-        ["Light (less oil / less salt)", "少なめでお願いします", "すくなめで おねがい します", "Sukuname de onegai shimasu", "", "ramen less"],
+        ["Less, please (oil or noodles)", "少なめでお願いします", "すくなめで おねがい します", "Sukuname de onegai shimasu", "For a less salty broth, say aji usume de onegai shimasu.", "ramen less"],
         ["No wasabi, please", "わさび抜きでお願いします", "わさびぬきで おねがい します", "Wasabi nuki de onegai shimasu", "", "sushi"],
         ["Chef's choice, please", "おまかせでお願いします", "おまかせで おねがい します", "Omakase de onegai shimasu", "", "sushi omakase"],
         ["What fish is this?", "これは何の魚ですか？", "これは なんの さかな ですか？", "Kore wa nan no sakana desu ka?", "", "sushi"]

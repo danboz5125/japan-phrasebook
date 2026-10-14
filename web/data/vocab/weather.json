@@ -37,6 +37,6 @@
     ["Weather warning", "警報", "けいほう", "keihō", "", "alert emergency"],
     ["Evacuation", "避難", "ひなん", "hinan", "", "emergency escape"],
     ["Evacuation shelter", "避難所", "ひなんじょ", "hinanjo", "", "emergency shelter"],
-    ["Evacuation site (open area)", "避難場所", "ひなん ばしょ", "hinan basho", "Green running-man signs point here.", "emergency"]
+    ["Evacuation site (open area)", "避難場所", "ひなん ばしょ", "hinan basho", "Look for the green sign with a figure running toward an open area. Different from the exit sign.", "emergency"]
   ]
 }

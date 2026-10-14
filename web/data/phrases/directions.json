@@ -2,7 +2,7 @@
   "sections": [
     {"title": "Asking the way", "items": [
         ["Excuse me, where is (place)?", "すみません、〜はどこですか？", "すみません、 〜は どこ ですか？", "Sumimasen, (place) wa doko desu ka?", "Start with sumimasen to get someone's attention politely.", "where"],
-        ["Where is the toilet?", "トイレはどこですか？", "トイレは どこ ですか？", "Toire wa doko desu ka?", "Konbini and train stations almost always have free toilets.", "bathroom restroom wc"],
+        ["Where is the toilet?", "トイレはどこですか？", "トイレは どこ ですか？", "Toire wa doko desu ka?", "Train stations and most konbini have free toilets.", "bathroom restroom wc"],
         ["Where is the station?", "駅はどこですか？", "えきは どこ ですか？", "Eki wa doko desu ka?", "", "station"],
         ["Is there a konbini near here?", "この近くにコンビニはありますか？", "この ちかくに コンビニは ありますか？", "Kono chikaku ni konbini wa arimasu ka?", "", "convenience store"],
         ["Is there an ATM near here?", "この近くにATMはありますか？", "この ちかくに エーティーエムは ありますか？", "Kono chikaku ni ē-tī-emu wa arimasu ka?", "7-Eleven and Japan Post ATMs take foreign cards.", "atm cash money"],

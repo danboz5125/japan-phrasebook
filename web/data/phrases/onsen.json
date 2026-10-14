@@ -22,7 +22,7 @@
         ["Can I go inside?", "中に入ってもいいですか？", "なかに はいっても いい ですか？", "Naka ni haitte mo ii desu ka?", "", "enter inside"],
         ["Where do I take off my shoes?", "靴はどこで脱ぎますか？", "くつは どこで ぬぎますか？", "Kutsu wa doko de nugimasu ka?", "Usually where the floor steps up.", "shoes"],
         ["How do I pray here?", "お参りの仕方を教えてください", "おまいりの しかたを おしえて ください", "O-mairi no shikata o oshiete kudasai", "Shrine: bow twice, clap twice, bow once. Temple: no clapping.", "pray worship etiquette"],
-        ["Where can I get a goshuin?", "御朱印はどこでいただけますか？", "ごしゅいんは どこで いただけますか？", "Go-shuin wa doko de itadakemasu ka?", "Look for 御朱印 or 授与所 signs. Usually ¥300 to ¥500.", "goshuin stamp seal calligraphy"],
+        ["Where can I get a goshuin?", "御朱印はどこでいただけますか？", "ごしゅいんは どこで いただけますか？", "Go-shuin wa doko de itadakemasu ka?", "Look for 御朱印 or 授与所 signs. Usually usually ¥500.", "goshuin stamp seal calligraphy"],
         ["A goshuin in this book, please", "この御朱印帳にお願いします", "この ごしゅいんちょうに おねがい します", "Kono go-shuinchō ni onegai shimasu", "Open it to the next blank page. Hand it over with both hands.", "goshuin stamp book"],
         ["A pre-written goshuin, please", "書き置きでお願いします", "かきおきで おねがい します", "Kakioki de onegai shimasu", "A ready-made sheet, if you have no book.", "goshuin paper sheet"],
         ["I'd like a goshuin book", "御朱印帳をください", "ごしゅいんちょうを ください", "Go-shuinchō o kudasai", "", "goshuin book buy"],
@@ -32,7 +32,7 @@
     {"title": "What you'll hear", "hear": true, "items": [
         ["Sorry, we don't allow tattoos", "申し訳ございません、タトゥーはお断りしております", "もうしわけ ございません、 タトゥーは おことわり して おります", "Mōshiwake gozaimasen, tatū wa o-kotowari shite orimasu", "A firm no. Ask kashikiri-buro wa arimasu ka?", "tattoo no"],
         ["Please take your shoes off", "靴をお脱ぎください", "くつを おぬぎ ください", "Kutsu o o-nugi kudasai", "Put them in a shoe locker or on the shelf by the entrance.", "shoes"],
-        ["Please carry your shoes in the bag", "靴は袋に入れてお持ちください", "くつは ふくろに いれて おもち ください", "Kutsu wa fukuro ni irete o-mochi kudasai", "Temples often hand you a plastic bag for your shoes.", "shoes bag"],
+        ["Please carry your shoes in the bag", "靴は袋に入れてお持ちください", "くつは ふくろに いれて おもち ください", "Kutsu wa fukuro ni irete o-mochi kudasai", "Some temples hand you a plastic bag for your shoes.", "shoes bag"],
         ["Please wash before getting in", "お体を洗ってからお入りください", "おからだを あらって から おはいり ください", "O-karada o aratte kara o-hairi kudasai", "Sit on a stool at the showers and wash fully first.", "wash rules"],
         ["Please don't put towels in the water", "タオルは湯船に入れないでください", "タオルは ゆぶねに いれないで ください", "Taoru wa yubune ni irenaide kudasai", "Rest it on your head or the edge of the bath.", "towel rules"],
         ["No photos inside, please", "中での撮影はご遠慮ください", "なかでの さつえいは ごえんりょ ください", "Naka de no satsuei wa go-enryo kudasai", "", "no photo"],
