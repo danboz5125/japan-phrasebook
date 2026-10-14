@@ -314,6 +314,7 @@ const TABS = [
   ['home', '🏠', 'Home', '#/'],
   ['favs', '⭐', 'Favorites', '#/favs'],
   ['practice', '🎙️', 'Practice', '#/practice'],
+  ['quiz', '🧠', 'Quiz', '#/quiz'],
   ['etiquette', '🎎', 'Etiquette', '#/etiquette'],
   ['mine', '✏️', 'Mine', '#/mine'],
 ];
@@ -369,6 +370,7 @@ function viewCategory(id) {
     ${tips}
     <div class="row-btns">
       <a class="btn small" href="#/practice/cat:${c.id}">🎙️ Practice these</a>
+      <a class="btn small" href="#/quiz/cat:${c.id}">🧠 Quiz these</a>
       ${words.map((t) => `<a class="btn small" href="#/w/${t.id}">${t.icon} ${esc(t.name)}</a>`).join('')}
     </div>
     ${c.sections.map((s) => `<h2 class="sec">${s.hear ? '👂 ' : ''}${esc(s.title)}</h2>${listHTML(s.items)}`).join('')}
@@ -380,7 +382,7 @@ function viewTopic(id) {
   if (!t) return viewMissing();
   return `<div class="wrap">
     ${head(t.icon, t.name, t.items.length + ' words · tap to hear, tap again for slow')}
-    <div class="row-btns"><a class="btn small" href="#/practice/topic:${t.id}">🎙️ Practice these</a></div>
+    <div class="row-btns"><a class="btn small" href="#/practice/topic:${t.id}">🎙️ Practice these</a><a class="btn small" href="#/quiz/topic:${t.id}">🧠 Quiz these</a></div>
     ${t.items.length ? listHTML(t.items) : '<p class="empty">No words yet.</p>'}
   </div>`;
 }
@@ -478,6 +480,7 @@ function viewPracticeHome() {
   ];
   return `<div class="wrap">
     ${head('🎙️', 'Practice', 'See the English, say it out loud, then tap to hear how it should sound.')}
+    <div class="banner" style="margin-bottom:12px">🧠 Prefer multiple choice? <a href="#/quiz">Take a quiz</a>: read or listen, by situation or topic.</div>
     <div class="grid">
       ${scopes.map(([id, icon, name, n]) => `<a class="tile" href="#/practice/${id}"><span class="ti">${icon}</span><b>${esc(name)}</b><span>${n} phrases</span></a>`).join('')}
     </div>
@@ -554,6 +557,183 @@ function viewPractice(scope) {
   </div>`;
 }
 
+/* ------------------------------------------------------------------- quiz */
+
+const QUIZ_MODES = [
+  ['read', '📖', 'Read', 'See English, pick the Japanese'],
+  ['listen', '👂', 'Listen', 'Hear Japanese, pick the English'],
+  ['mix', '🎲', 'Mix', 'A bit of both'],
+];
+
+function quizSettings() {
+  const q = Object.assign({ mode: 'read', len: 10, scopes: ['cat:basics'] }, state.settings.quiz);
+  q.scopes = (q.scopes || []).slice();
+  return q;
+}
+function saveQuizSettings(q) {
+  state.settings.quiz = q;
+  store.set('settings', state.settings);
+}
+
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/* Fill-in-the-blank entries ("(place) made ...") can't be quizzed. */
+const quizzable = (e) => !!(e && e.romaji && e.ja && !e.romaji.includes('(') && !e.en.includes('(') && !e.ja.includes('〜'));
+const roText = (e) => (state.settings.dots ? dotted(e.romaji) : e.romaji);
+
+function quizPool(scopes) {
+  const seen = new Set();
+  const out = [];
+  for (const sc of scopes) {
+    for (const e of practicePool(sc)) {
+      if (!quizzable(e)) continue;
+      const k = e.ja + '|' + e.en;
+      if (seen.has(k)) continue;
+      seen.add(k);
+      out.push(e);
+    }
+  }
+  return out;
+}
+
+/* Three wrong answers, preferably from the same situation or topic so they
+ * are plausible, never sharing the answer's Japanese, romaji or meaning. */
+function pickOptions(answer, pool) {
+  const enKey = (e) => e.en.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const usedRo = new Set([romaNorm(answer.romaji)]);
+  const usedEn = new Set([enKey(answer)]);
+  const usedJa = new Set([answer.ja]);
+  const opts = [answer];
+  const tryFrom = (cands) => {
+    for (const e of shuffle(cands.slice())) {
+      if (opts.length >= 4) return;
+      if (!quizzable(e) || usedJa.has(e.ja) || usedRo.has(romaNorm(e.romaji)) || usedEn.has(enKey(e))) continue;
+      usedJa.add(e.ja);
+      usedRo.add(romaNorm(e.romaji));
+      usedEn.add(enKey(e));
+      opts.push(e);
+    }
+  };
+  tryFrom(pool.filter((e) => e.src === answer.src));
+  tryFrom(pool);
+  const kind = answer.kind === 'word' ? 'word' : 'phrase';
+  tryFrom(state.entries.filter((e) => e.kind === kind));
+  return shuffle(opts);
+}
+
+function startQuiz(settings, only) {
+  const pool = quizPool(settings.scopes);
+  const items = only ? only.slice() : shuffle(pool.slice()).slice(0, settings.len);
+  state.quiz = {
+    settings,
+    i: 0,
+    score: 0,
+    picked: -1,
+    missed: [],
+    questions: shuffle(items).map((a) => {
+      const mode = settings.mode === 'mix' ? (Math.random() < 0.5 ? 'read' : 'listen') : settings.mode;
+      return { a, mode, options: pickOptions(a, pool) };
+    }),
+  };
+}
+
+function quizAutoPlay() {
+  const z = state.quiz;
+  const q = z && z.questions[z.i];
+  if (q && q.mode === 'listen' && z.picked < 0) setTimeout(() => tts.speak(q.a.ja, false), 300);
+}
+
+function viewQuizSetup() {
+  const q = quizSettings();
+  const n = quizPool(q.scopes).length;
+  const has = (sc) => q.scopes.includes(sc);
+  const chip = (sc, label) => `<button class="chip${has(sc) ? ' on' : ''}" data-act="quiz-scope" data-scope="${esc(sc)}">${label}</button>`;
+  const favN = Object.keys(state.favs).length;
+  return `<div class="wrap">
+    ${head('🧠', 'Quiz', 'Multiple choice. Pick a mode, then what to quiz.')}
+    <h2 class="sec">Mode</h2>
+    <div class="seg">${QUIZ_MODES.map(([id, icon, name, sub]) => `<button class="segbtn${q.mode === id ? ' on' : ''}" data-act="quiz-mode" data-mode="${id}"><b>${icon} ${name}</b><span>${sub}</span></button>`).join('')}</div>
+    <h2 class="sec">Questions</h2>
+    <div class="chips">${[10, 20, 30].map((len) => `<button class="chip${q.len === len ? ' on' : ''}" data-act="quiz-len" data-len="${len}">${len}</button>`).join('')}</div>
+    <h2 class="sec">Quick picks</h2>
+    <div class="chips">
+      ${favN ? chip('favs', '⭐ Favorites') : ''}
+      ${chip('hear', '👂 What you\'ll hear')}
+    </div>
+    <h2 class="sec">Situations <button class="more linkbtn" data-act="quiz-all" data-group="cat">All / none</button></h2>
+    <div class="chips">${state.cats.map((c) => chip('cat:' + c.id, c.icon + ' ' + esc(c.name))).join('')}</div>
+    <h2 class="sec">Words <button class="more linkbtn" data-act="quiz-all" data-group="topic">All / none</button></h2>
+    <div class="chips">${state.topics.map((t) => chip('topic:' + t.id, t.icon + ' ' + esc(t.name))).join('')}</div>
+    <div class="startbar">
+      <span class="hint">${n < 4 ? 'Pick sections with at least 4 phrases' : n + ' to choose from'}</span>
+      <button class="btn small" data-act="quiz-clear">Clear</button>
+      <button class="btn primary" data-act="quiz-start"${n < 4 ? ' disabled' : ''}>Start ${Math.min(n, q.len)}</button>
+    </div>
+  </div>`;
+}
+
+function viewQuizRun() {
+  const z = state.quiz;
+  if (!z || !z.questions.length) return viewQuizSetup();
+  if (z.i >= z.questions.length) return viewQuizDone();
+  const q = z.questions[z.i];
+  const a = q.a;
+  const answered = z.picked >= 0;
+  const pct = Math.round((z.i / z.questions.length) * 100);
+  const prompt = q.mode === 'read'
+    ? `<div class="qlabel">How do you say…</div><div class="prompt">${esc(a.en)}</div>`
+    : `<div class="qlabel">What does this mean?</div>
+       <button class="btn-ic play bigplay" data-act="quiz-play" aria-label="Play">${ICON.play}</button>
+       <div><button class="btn small" data-act="quiz-slow">🐢 Slow</button></div>
+       ${answered ? `<div class="qro">${esc(roText(a))}</div><div class="ja" lang="ja">${esc(a.ja)}</div>` : ''}`;
+  const opts = q.options.map((o, i) => {
+    let cls = 'opt';
+    if (answered) cls += o === a ? ' right' : i === z.picked ? ' wrong' : ' dim';
+    const body = q.mode === 'read'
+      ? `<span class="ro">${esc(roText(o))}</span>${state.settings.script ? `<span class="ja" lang="ja">${esc(o.ja)}</span>` : ''}${answered && o !== a ? `<span class="optmeta">= ${esc(o.en)}</span>` : ''}`
+      : `<span class="en">${esc(o.en)}</span>`;
+    return `<button class="${cls}" data-act="quiz-pick" data-i="${i}"${answered ? ' disabled' : ''}>${body}</button>`;
+  }).join('');
+  const after = answered
+    ? `<div class="row-btns" style="justify-content:center">
+        <button class="btn" data-act="quiz-play">🔊 Hear it</button>
+        <button class="btn" data-act="quiz-slow">🐢 Slow</button>
+        <button class="btn primary" data-act="quiz-next">${z.i + 1 < z.questions.length ? 'Next →' : 'See results'}</button>
+      </div>
+      ${a.note ? `<div class="hint">${esc(a.note)}</div>` : ''}`
+    : '';
+  return `<div class="wrap">
+    <div class="qtop">
+      <a class="btn small" href="#/quiz" aria-label="End quiz">✕</a>
+      <div class="qbar"><span style="width:${pct}%"></span></div>
+      <span class="qcount">${z.i + 1}/${z.questions.length} · ✓ ${z.score}</span>
+    </div>
+    <div class="prac quiz">${prompt}<div class="opts">${opts}</div>${after}</div>
+  </div>`;
+}
+
+function viewQuizDone() {
+  const z = state.quiz;
+  const total = z.questions.length;
+  const pct = Math.round((z.score / total) * 100);
+  const msg = pct === 100 ? 'Perfect! 🎉' : pct >= 80 ? 'Great job.' : pct >= 50 ? 'Getting there.' : 'Keep at it. Repetition works.';
+  return `<div class="wrap">
+    ${head('🏁', z.score + ' / ' + total, msg)}
+    <div class="row-btns">
+      ${z.missed.length ? `<button class="btn primary" data-act="quiz-retry">Retry ${z.missed.length} missed</button>` : ''}
+      <button class="btn${z.missed.length ? '' : ' primary'}" data-act="quiz-again">New round</button>
+      <a class="btn" href="#/quiz">Change settings</a>
+    </div>
+    ${z.missed.length ? `<h2 class="sec">Missed · tap to hear, ★ to save</h2>${listHTML(z.missed)}` : ''}
+  </div>`;
+}
+
 function viewSettings() {
   const st = tts.status();
   const voice = { ready: '✅ Japanese voice ready', missing: '⚠️ Japanese voice not installed', unsupported: '⚠️ No speech engine', unknown: '… checking voice' }[st] || st;
@@ -610,6 +790,7 @@ function render() {
     case 'etiquette': html = viewEtiquette(); break;
     case 'mine': html = viewMine(r.arg); break;
     case 'practice': html = r.arg ? viewPractice(r.arg) : viewPracticeHome(); break;
+    case 'quiz': html = r.arg === 'run' ? viewQuizRun() : viewQuizSetup(); break;
     case 'settings': html = viewSettings(); break;
     default: html = viewMissing();
   }
@@ -703,6 +884,64 @@ document.addEventListener('click', (ev) => {
       break;
     case 'test-voice':
       tts.speak('こんにちは', false);
+      break;
+    case 'quiz-mode':
+    case 'quiz-len':
+    case 'quiz-scope':
+    case 'quiz-all':
+    case 'quiz-clear': {
+      const q = quizSettings();
+      if (act === 'quiz-mode') q.mode = btn.dataset.mode;
+      if (act === 'quiz-len') q.len = Number(btn.dataset.len);
+      if (act === 'quiz-clear') q.scopes = [];
+      if (act === 'quiz-scope') {
+        const sc = btn.dataset.scope;
+        q.scopes = q.scopes.includes(sc) ? q.scopes.filter((x) => x !== sc) : q.scopes.concat(sc);
+      }
+      if (act === 'quiz-all') {
+        const group = btn.dataset.group;
+        const ids = (group === 'cat' ? state.cats : state.topics).map((x) => group + ':' + x.id);
+        const all = ids.every((id) => q.scopes.includes(id));
+        q.scopes = all ? q.scopes.filter((x) => !ids.includes(x)) : q.scopes.concat(ids.filter((id) => !q.scopes.includes(id)));
+      }
+      saveQuizSettings(q);
+      refresh();
+      break;
+    }
+    case 'quiz-start':
+      startQuiz(quizSettings());
+      location.hash = '#/quiz/run';
+      quizAutoPlay();
+      break;
+    case 'quiz-pick': {
+      const z = state.quiz;
+      if (!z || z.picked >= 0) break;
+      const q = z.questions[z.i];
+      z.picked = Number(btn.dataset.i);
+      if (q.options[z.picked] === q.a) z.score++; else z.missed.push(q.a);
+      refresh();
+      tts.speak(q.a.ja, false);
+      break;
+    }
+    case 'quiz-next':
+      state.quiz.i++;
+      state.quiz.picked = -1;
+      render();
+      $('#main').scrollTop = 0;
+      quizAutoPlay();
+      break;
+    case 'quiz-play':
+    case 'quiz-slow': {
+      const z = state.quiz;
+      if (z && z.questions[z.i]) tts.speak(z.questions[z.i].a.ja, act === 'quiz-slow');
+      break;
+    }
+    case 'quiz-retry':
+    case 'quiz-again':
+      startQuiz(state.quiz.settings, act === 'quiz-retry' ? state.quiz.missed : null);
+      refresh();
+      $('#main').scrollTop = 0;
+      quizAutoPlay();
       break;
     case 'prac-reveal':
       p.revealed = true;
@@ -867,9 +1106,16 @@ $('#qclear').addEventListener('click', () => {
 });
 
 let ready = false;
+function applyQuizPreset(r) {
+  if (r.view !== 'quiz' || !r.arg || r.arg === 'run') return;
+  const q = quizSettings();
+  q.scopes = [r.arg];
+  saveQuizSettings(q);
+}
 window.addEventListener('hashchange', () => {
   if (!ready) return;
   const r = route();
+  applyQuizPreset(r);
   if (r.view === 'practice' && r.arg && (!state.practice || state.practice.scope !== r.arg)) {
     startPractice(r.arg);
     render();
@@ -891,6 +1137,7 @@ if (Native && typeof Native.isDark === 'function') window.setTheme(Native.isDark
 loadData().then(() => {
   ready = true;
   const r = route();
+  applyQuizPreset(r);
   if (r.view === 's') $('#q').value = r.arg;
   render();
 }).catch((err) => {
