@@ -1,0 +1,40 @@
+{
+  "sections": [
+    {"title": "Asking the way", "items": [
+        ["Excuse me, where is (place)?", "すみません、〜はどこですか？", "すみません、 〜は どこ ですか？", "Sumimasen, (place) wa doko desu ka?", "Start with sumimasen to get someone's attention politely.", "where"],
+        ["Where is the toilet?", "トイレはどこですか？", "トイレは どこ ですか？", "Toire wa doko desu ka?", "Konbini and train stations almost always have free toilets.", "bathroom restroom wc"],
+        ["Where is the station?", "駅はどこですか？", "えきは どこ ですか？", "Eki wa doko desu ka?", "", "station"],
+        ["Is there a konbini near here?", "この近くにコンビニはありますか？", "この ちかくに コンビニは ありますか？", "Kono chikaku ni konbini wa arimasu ka?", "", "convenience store"],
+        ["Is there an ATM near here?", "この近くにATMはありますか？", "この ちかくに エーティーエムは ありますか？", "Kono chikaku ni ē-tī-emu wa arimasu ka?", "7-Eleven and Japan Post ATMs take foreign cards.", "atm cash money"],
+        ["I want to go here (show phone)", "ここに行きたいです", "ここに いきたい です", "Koko ni ikitai desu", "Point at the map on your phone.", "map"],
+        ["How do I get to (place)?", "〜へはどうやって行きますか？", "〜へは どうやって いきますか？", "(place) e wa dō yatte ikimasu ka?", "", "how get"],
+        ["Where are we on this map?", "この地図で、今どこですか？", "この ちずで、 いま どこ ですか？", "Kono chizu de, ima doko desu ka?", "", "map lost"],
+        ["Can I walk there?", "歩いて行けますか？", "あるいて いけますか？", "Aruite ikemasu ka?", "", "walk"],
+        ["How many minutes on foot?", "歩いて何分ですか？", "あるいて なんぷん ですか？", "Aruite nan-pun desu ka?", "", "walk minutes"],
+        ["Is it far?", "遠いですか？", "とおい ですか？", "Tōi desu ka?", "", "far distance"],
+        ["Is it close?", "近いですか？", "ちかい ですか？", "Chikai desu ka?", "", "near close"],
+        ["Could you show me on the map?", "地図で教えてもらえますか？", "ちずで おしえて もらえますか？", "Chizu de oshiete moraemasu ka?", "", "map"],
+        ["I'm lost", "道に迷いました", "みちに まよいました", "Michi ni mayoimashita", "", "lost"],
+        ["Which way is (place)?", "〜はどっちですか？", "〜は どっち ですか？", "(place) wa dotchi desu ka?", "", "which way direction"],
+        ["Is it this way?", "こっちですか？", "こっち ですか？", "Kotchi desu ka?", "Point the way you think.", "direction"],
+        ["Thank you, that really helps", "助かりました、ありがとうございます", "たすかりました、 ありがとう ございます", "Tasukarimashita, arigatō gozaimasu", "", "thanks"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Go straight", "まっすぐ行ってください", "まっすぐ いって ください", "Massugu itte kudasai", "", "straight"],
+        ["Turn right", "右に曲がってください", "みぎに まがって ください", "Migi ni magatte kudasai", "Migi = right.", "right"],
+        ["Turn left", "左に曲がってください", "ひだりに まがって ください", "Hidari ni magatte kudasai", "Hidari = left.", "left"],
+        ["Right at the traffic light", "信号を右です", "しんごうを みぎ です", "Shingō o migi desu", "", "traffic light right"],
+        ["Left at the corner", "角を左です", "かどを ひだり です", "Kado o hidari desu", "", "corner left"],
+        ["It's just there", "すぐそこです", "すぐ そこ です", "Sugu soko desu", "", "near"],
+        ["Over there", "あそこです", "あそこ です", "Asoko desu", "", "there"],
+        ["About 5 minutes on foot", "歩いて5分ぐらいです", "あるいて ごふんぐらい です", "Aruite go-fun gurai desu", "", "walk minutes"],
+        ["It's next to the station", "駅の隣です", "えきの となり です", "Eki no tonari desu", "", "next to"],
+        ["In front of (place)", "〜の前です", "〜の まえ です", "(place) no mae desu", "", "in front"],
+        ["Behind (place)", "〜の後ろです", "〜の うしろ です", "(place) no ushiro desu", "", "behind"],
+        ["Across the street", "道の向こう側です", "みちの むこうがわ です", "Michi no mukōgawa desu", "", "across"],
+        ["On the second floor", "2階です", "にかい です", "Ni-kai desu", "", "floor"],
+        ["In the basement", "地下です", "ちか です", "Chika desu", "", "basement underground"],
+        ["Sorry, I'm not sure", "すみません、ちょっとわかりません", "すみません、 ちょっと わかりません", "Sumimasen, chotto wakarimasen", "A polite \"I don't know\". Thank them and ask someone else.", "dont know"]
+      ]}
+  ]
+}

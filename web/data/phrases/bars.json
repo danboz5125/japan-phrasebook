@@ -1,0 +1,60 @@
+{
+  "sections": [
+    {"title": "Ordering drinks", "items": [
+        ["Draft beer to start, please", "とりあえず生で", "とりあえず なまで", "Toriaezu nama de", "The classic first order at an izakaya. Nama = draft beer.", "beer draft first"],
+        ["One draft beer, please", "生ビール一つお願いします", "なまビール ひとつ おねがい します", "Nama bīru hitotsu onegai shimasu", "", "beer draft"],
+        ["Two draft beers, please", "生ビール二つお願いします", "なまビール ふたつ おねがい します", "Nama bīru futatsu onegai shimasu", "", "beer draft two"],
+        ["One more, please", "もう一杯お願いします", "もう いっぱい おねがい します", "Mō ippai onegai shimasu", "Ippai = one glass. Hold up your glass or point.", "another refill round"],
+        ["Another round of the same, please", "同じものをもう一杯ずつお願いします", "おなじ ものを もう いっぱい ずつ おねがい します", "Onaji mono o mō ippai zutsu onegai shimasu", "One more each of what we had.", "another round same"],
+        ["A highball, please", "ハイボールお願いします", "ハイボール おねがい します", "Haibōru onegai shimasu", "Whisky and soda. Hugely popular and usually cheap.", "whisky whiskey soda"],
+        ["A lemon sour, please", "レモンサワーお願いします", "レモンサワー おねがい します", "Remon sawā onegai shimasu", "Shōchū, soda and lemon. Light and refreshing.", "chuhai lemon"],
+        ["Do you have Japanese sake?", "日本酒はありますか？", "にほんしゅは ありますか？", "Nihonshu wa arimasu ka?", "O-sake means any alcohol. Nihonshu is rice wine.", "sake nihonshu"],
+        ["Hot sake, please", "熱燗をお願いします", "あつかんを おねがい します", "Atsukan o onegai shimasu", "Nurukan is gently warm, if you'd like it milder.", "sake warm hot"],
+        ["Chilled sake, please", "冷酒をお願いします", "れいしゅを おねがい します", "Reishu o onegai shimasu", "Best for good sake. Hiya can mean room temperature.", "sake cold"],
+        ["Which sake do you recommend?", "おすすめの日本酒はどれですか？", "おすすめの にほんしゅは どれ ですか？", "Osusume no nihonshu wa dore desu ka?", "", "sake recommendation"],
+        ["What do you recommend?", "おすすめは何ですか？", "おすすめは なん ですか？", "Osusume wa nan desu ka?", "", "recommendation special"],
+        ["On the rocks, please", "ロックでお願いします", "ロックで おねがい します", "Rokku de onegai shimasu", "For whisky or shōchū.", "ice rocks"],
+        ["With water, please", "水割りでお願いします", "みずわりで おねがい します", "Mizuwari de onegai shimasu", "Mixed with water and ice. Common for whisky and shōchū.", "mizuwari water"],
+        ["Do you have non-alcoholic drinks?", "ノンアルコールはありますか？", "ノンアルコールは ありますか？", "Non'arukōru wa arimasu ka?", "Non-alcoholic beer is common. So are oolong tea and soft drinks.", "sober non alcoholic"],
+        ["Oolong tea, please", "ウーロン茶お願いします", "ウーロンちゃ おねがい します", "Ūroncha onegai shimasu", "The standard no-alcohol order.", "tea sober"]
+      ]},
+    {"title": "Kanpai & at the table", "items": [
+        ["Cheers!", "乾杯！", "かんぱい！", "Kanpai!", "Wait until everyone has a drink. Clink, then sip.", "toast cheers"],
+        ["Let me pour for you", "お注ぎします", "おつぎ します", "O-tsugi shimasu", "Hold the bottle with both hands. Pour for others, not yourself.", "pour"],
+        ["Just a little, please", "少しだけお願いします", "すこし だけ おねがい します", "Sukoshi dake onegai shimasu", "Hold your glass up with both hands while they pour.", "pour little"],
+        ["Water, please", "お水ください", "おみず ください", "O-mizu kudasai", "Water is free. Asking for it between drinks is normal.", "water chaser"],
+        ["I'm a bit drunk", "ちょっと酔っちゃいました", "ちょっと よっちゃいました", "Chotto yotchaimashita", "Light and friendly. Gets a laugh.", "drunk tipsy"],
+        ["I'll stop here", "もうやめておきます", "もう やめて おきます", "Mō yamete okimasu", "Leave your glass full. An empty glass gets refilled.", "stop no more enough"],
+        ["Can I smoke here?", "ここでタバコを吸ってもいいですか？", "ここで タバコを すっても いい ですか？", "Koko de tabako o sutte mo ii desu ka?", "", "smoke cigarette"],
+        ["Is there a smoking area?", "喫煙所はありますか？", "きつえんじょは ありますか？", "Kitsuenjo wa arimasu ka?", "", "smoke cigarette"]
+      ]},
+    {"title": "Cover charge & all-you-can-drink", "items": [
+        ["Is there a cover charge?", "チャージはありますか？", "チャージは ありますか？", "Chāji wa arimasu ka?", "Bars may charge ¥500 to ¥1,000 per person. Ask before sitting.", "cover charge fee"],
+        ["Is this the otōshi?", "これはお通しですか？", "これは おとおし ですか？", "Kore wa otōshi desu ka?", "The small dish you didn't order. It's part of the cover charge.", "otoshi snack cover"],
+        ["Do you have all-you-can-drink?", "飲み放題はありますか？", "のみほうだいは ありますか？", "Nomihōdai wa arimasu ka?", "", "nomihodai unlimited"],
+        ["How long is the all-you-can-drink?", "飲み放題は何時間ですか？", "のみほうだいは なんじかん ですか？", "Nomihōdai wa nan-jikan desu ka?", "", "nomihodai time"],
+        ["Which is the all-you-can-drink menu?", "飲み放題のメニューはどれですか？", "のみほうだいの メニューは どれ ですか？", "Nomihōdai no menyū wa dore desu ka?", "Only drinks on that list are included.", "nomihodai menu"],
+        ["Is this included in all-you-can-drink?", "これは飲み放題に入っていますか？", "これは のみほうだいに はいって いますか？", "Kore wa nomihōdai ni haitte imasu ka?", "Point at the drink on the menu.", "nomihodai included"],
+        ["All-you-can-drink for two, please", "飲み放題を二人でお願いします", "のみほうだいを ふたりで おねがい します", "Nomihōdai o futari de onegai shimasu", "Usually everyone at the table has to join.", "nomihodai two"]
+      ]},
+    {"title": "Last call & paying", "items": [
+        ["When is last order?", "ラストオーダーは何時ですか？", "ラストオーダーは なんじ ですか？", "Rasuto ōdā wa nanji desu ka?", "", "last call closing"],
+        ["Check, please", "お会計お願いします", "おかいけい おねがい します", "O-kaikei onegai shimasu", "Bars usually settle at your seat. Izakaya often at the register.", "bill pay"]
+      ]},
+    {"title": "Talking with the bartender", "items": [
+        ["This is delicious", "これ、おいしいですね", "これ、 おいしい ですね", "Kore, oishii desu ne", "", "tasty good"],
+        ["What kind of drink is this?", "これは何のお酒ですか？", "これは なんの おさけ ですか？", "Kore wa nan no o-sake desu ka?", "", "drink what"],
+        ["Is this a local sake?", "これは地元のお酒ですか？", "これは じもとの おさけ ですか？", "Kore wa jimoto no o-sake desu ka?", "Bartenders love talking about local brews.", "local sake"],
+        ["Thanks, that was great (leaving)", "ごちそうさまでした", "ごちそうさま でした", "Gochisōsama deshita", "Say it on the way out, just like at a restaurant.", "thanks leave"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Drinks first?", "お飲み物は？", "おのみものは？", "O-nomimono wa?", "Order right away. Toriaezu nama de is the classic answer.", "drinks first"],
+        ["This is your otōshi (starter)", "お通しです", "おとおし です", "Otōshi desu", "The cover-charge snack. Just say arigatō and enjoy it.", "otoshi cover"],
+        ["There's a cover charge, is that OK?", "チャージ料がかかりますが、よろしいですか？", "チャージりょうが かかりますが、 よろしい ですか？", "Chāji-ryō ga kakarimasu ga, yoroshii desu ka?", "Answer hai, or ask ikura desu ka? first.", "cover charge"],
+        ["All-you-can-drink is two hours", "飲み放題は2時間制です", "のみほうだいは にじかんせい です", "Nomihōdai wa ni-jikan-sei desu", "Drink last order is usually 30 minutes before the end.", "nomihodai time"],
+        ["Hot or chilled?", "熱燗と冷酒、どちらになさいますか？", "あつかんと れいしゅ、 どちらに なさいますか？", "Atsukan to reishu, dochira ni nasaimasu ka?", "Answer atsukan de (hot) or reishu de (chilled).", "sake"],
+        ["The same again?", "同じものでよろしいですか？", "おなじ もので よろしい ですか？", "Onaji mono de yoroshii desu ka?", "Answer hai, onegai shimasu.", "same refill"],
+        ["It's last order", "ラストオーダーになります", "ラストオーダーに なります", "Rasuto ōdā ni narimasu", "Last chance to order. Answer daijōbu desu if you're done.", "last call closing"]
+      ]}
+  ]
+}

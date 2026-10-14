@@ -1,0 +1,57 @@
+{
+  "sections": [
+    {"title": "Prices & money", "items": [
+        ["How much is it?", "いくらですか？", "いくら ですか？", "Ikura desu ka?", "", "price cost"],
+        ["How much is this?", "これはいくらですか？", "これは いくら ですか？", "Kore wa ikura desu ka?", "", "price cost"],
+        ["Could you write the price?", "値段を書いてもらえますか？", "ねだんを かいて もらえますか？", "Nedan o kaite moraemasu ka?", "Easier than catching a long number by ear.", "price write"],
+        ["That's a bit expensive", "ちょっと高いですね", "ちょっと たかい ですね", "Chotto takai desu ne", "A soft way to pass on something.", "expensive"],
+        ["Where is an ATM?", "ATMはどこですか？", "エーティーエムは どこ ですか？", "Ē-tī-emu wa doko desu ka?", "", "atm cash"],
+        ["I'd like to exchange money", "両替したいです", "りょうがえ したい です", "Ryōgae shitai desu", "", "exchange currency"],
+        ["Can you break a 10,000 yen note?", "一万円札をくずせますか？", "いちまんえんさつを くずせますか？", "Ichi-man-en satsu o kuzusemasu ka?", "", "change bill note"]
+      ]},
+    {"title": "Saying prices", "items": [
+        ["100 yen", "百円", "ひゃくえん", "Hyaku en", "", "price"],
+        ["300 yen", "三百円", "さんびゃくえん", "San-byaku en", "300 changes to byaku.", "price"],
+        ["500 yen", "五百円", "ごひゃくえん", "Go-hyaku en", "", "price"],
+        ["600 yen", "六百円", "ろっぴゃくえん", "Roppyaku en", "", "price"],
+        ["800 yen", "八百円", "はっぴゃくえん", "Happyaku en", "", "price"],
+        ["1,000 yen", "千円", "せんえん", "Sen en", "", "price"],
+        ["1,500 yen", "千五百円", "せんごひゃくえん", "Sen go-hyaku en", "", "price"],
+        ["3,000 yen", "三千円", "さんぜんえん", "San-zen en", "3,000 changes to zen.", "price"],
+        ["5,000 yen", "五千円", "ごせんえん", "Go-sen en", "", "price"],
+        ["8,000 yen", "八千円", "はっせんえん", "Hassen en", "", "price"],
+        ["10,000 yen", "一万円", "いちまんえん", "Ichi-man en", "Japanese counts in 10,000s: man.", "price"],
+        ["20,000 yen", "二万円", "にまんえん", "Ni-man en", "", "price"],
+        ["50,000 yen", "五万円", "ごまんえん", "Go-man en", "", "price"]
+      ]},
+    {"title": "Ordering by count", "items": [
+        ["One, please", "一つください", "ひとつ ください", "Hitotsu kudasai", "This counting set works for almost any object.", "one count"],
+        ["Two, please", "二つください", "ふたつ ください", "Futatsu kudasai", "", "two count"],
+        ["Three, please", "三つください", "みっつ ください", "Mittsu kudasai", "", "three count"],
+        ["Four, please", "四つください", "よっつ ください", "Yottsu kudasai", "", "four count"],
+        ["Five, please", "五つください", "いつつ ください", "Itsutsu kudasai", "", "five count"],
+        ["How many?", "いくつですか？", "いくつ ですか？", "Ikutsu desu ka?", "", "how many"]
+      ]},
+    {"title": "Time", "items": [
+        ["What time is it now?", "今何時ですか？", "いま なんじ ですか？", "Ima nan-ji desu ka?", "", "time clock"],
+        ["What time do you open?", "何時に開きますか？", "なんじに あきますか？", "Nan-ji ni akimasu ka?", "", "open hours"],
+        ["What time do you close?", "何時に閉まりますか？", "なんじに しまりますか？", "Nan-ji ni shimarimasu ka?", "", "close hours"],
+        ["Are you open today?", "今日は開いていますか？", "きょうは あいて いますか？", "Kyō wa aite imasu ka?", "", "open today"],
+        ["How long does it take?", "どのくらいかかりますか？", "どのくらい かかりますか？", "Dono kurai kakarimasu ka?", "", "duration how long"],
+        ["4 o'clock", "4時", "よじ", "Yo-ji", "Not yon-ji.", "time"],
+        ["7 o'clock", "7時", "しちじ", "Shichi-ji", "Not nana-ji.", "time"],
+        ["9 o'clock", "9時", "くじ", "Ku-ji", "Not kyū-ji.", "time"],
+        ["Half past 6", "6時半", "ろくじはん", "Roku-ji han", "Han = half past.", "time"],
+        ["In 10 minutes", "10分後", "じゅっぷんご", "Juppun-go", "", "time later"],
+        ["Tomorrow morning", "明日の朝", "あしたの あさ", "Ashita no asa", "", "tomorrow"],
+        ["Tonight", "今晩", "こんばん", "Konban", "", "tonight"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["That's 1,200 yen", "千二百円です", "せんにひゃくえん です", "Sen ni-hyaku en desu", "The total is usually also shown on a screen.", "price total"],
+        ["Out of 10,000 yen", "一万円お預かりします", "いちまんえん おあずかり します", "Ichi-man en o-azukari shimasu", "The cashier confirming the note you handed over.", "change cash"],
+        ["800 yen is your change", "八百円のお返しです", "はっぴゃくえんの おかえし です", "Happyaku en no o-kaeshi desu", "", "change"],
+        ["We open at 10", "十時開店です", "じゅうじ かいてん です", "Jū-ji kaiten desu", "", "open"],
+        ["We're closed today", "本日はお休みです", "ほんじつは おやすみ です", "Honjitsu wa o-yasumi desu", "", "closed"]
+      ]}
+  ]
+}

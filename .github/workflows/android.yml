@@ -1,0 +1,104 @@
+name: Android APK
+
+# Builds the APK on every push and pull request (as a downloadable workflow
+# artifact), and attaches it to every published GitHub release.
+#
+# Each release gets two files:
+#   JapanPhrasebook-<version>.apk   the versioned build
+#   JapanPhrasebook.apk             same file, fixed name, so this link always
+#                                   serves the newest release:
+#   https://github.com/<owner>/<repo>/releases/latest/download/JapanPhrasebook.apk
+#
+# VERSION: versionName is the release tag without the "v" (v1.0.0 -> 1.0.0);
+# versionCode is the workflow run number, which only goes up, so every build
+# installs over the last and keeps favorites.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # attaching the APK to the release
+
+concurrency:
+  group: apk-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name != 'release' }}
+
+jobs:
+  apk:
+    name: Build the APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the phrase data
+        run: python3 tools/check_data.py
+
+      - name: Check the data is formatted
+        run: |
+          python3 tools/fmt_data.py
+          git diff --exit-code -- web/data || { echo "::error::Run python tools/fmt_data.py and commit the result"; exit 1; }
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.11.1'
+
+      - name: Set the version
+        id: v
+        env:
+          EVENT: ${{ github.event_name }}
+          RUN: ${{ github.run_number }}
+        run: |
+          if [ "$EVENT" = release ]; then name="${GITHUB_REF_NAME#v}"; else name="0.0.$RUN-dev"; fi
+          echo "VERSION_NAME=$name" >> "$GITHUB_ENV"
+          echo "VERSION_CODE=$RUN" >> "$GITHUB_ENV"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+          echo "Version $name (code $RUN)"
+
+      - name: Build
+        working-directory: android
+        run: gradle assembleRelease --no-daemon --stacktrace
+
+      - name: Verify the APK
+        env:
+          VER: ${{ steps.v.outputs.name }}
+        run: |
+          apk=android/app/build/outputs/apk/release/app-release.apk
+          bt=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          "$bt/apksigner" verify --print-certs "$apk"
+          badging=$("$bt/aapt2" dump badging "$apk")
+          printf '%s\n' "$badging" | grep -E "^(package|sdkVersion|targetSdkVersion|application-label)"
+          printf '%s\n' "$badging" | grep -q "versionName='$VER'"
+          mkdir -p out
+          cp "$apk" "out/JapanPhrasebook-$VER.apk"
+          {
+            echo "### Japan Phrasebook $VER"
+            echo ""
+            echo "APK size: $(du -h "$apk" | cut -f1). Signed with the committed sideload key; apksigner verify passed."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: JapanPhrasebook-${{ steps.v.outputs.name }}
+          path: out/*.apk
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Attach to the release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VER: ${{ steps.v.outputs.name }}
+        run: |
+          cp "out/JapanPhrasebook-$VER.apk" out/JapanPhrasebook.apk
+          gh release upload "$GITHUB_REF_NAME" "out/JapanPhrasebook-$VER.apk" out/JapanPhrasebook.apk --clobber
+          echo "Latest-download link: https://github.com/${GITHUB_REPOSITORY}/releases/latest/download/JapanPhrasebook.apk" >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,35 @@
+{
+  "sections": [
+    {"title": "Long vowels change the word", "items": [
+        ["Aunt / middle-aged woman", "おばさん", "おばさん", "Obasan", "Short a.", "vowel"],
+        ["Grandma / elderly woman", "おばあさん", "おばあさん", "Obāsan", "Hold the ā. Mixing these up is a classic mistake.", "vowel"],
+        ["Here", "ここ", "ここ", "Koko", "Two short o's.", "vowel"],
+        ["High school", "高校", "こうこう", "Kōkō", "Both o's held long.", "vowel"],
+        ["Building", "ビル", "ビル", "Biru", "Short i.", "vowel"],
+        ["Beer", "ビール", "ビール", "Bīru", "Long ī. Say biru and you've ordered a building.", "vowel"],
+        ["Tokyo", "東京", "とうきょう", "Tōkyō", "Two syllables, both held: Toh-kyoh. Not To-ki-o.", "vowel"],
+        ["Kyoto", "京都", "きょうと", "Kyōto", "Two syllables: Kyoh-to. Not Kee-yo-to.", "vowel"]
+      ]},
+    {"title": "Double consonants get a tiny pause", "items": [
+        ["Came", "来て", "きて", "Kite", "No pause.", "consonant"],
+        ["Stamp", "切手", "きって", "Kitte", "Pause before the t: kit-te.", "consonant"],
+        ["Matcha green tea", "抹茶", "まっちゃ", "Matcha", "Mat-cha, with a catch in the middle.", "consonant"],
+        ["Ticket", "切符", "きっぷ", "Kippu", "Kip-pu.", "consonant"],
+        ["Together", "一緒", "いっしょ", "Issho", "Ish-sho.", "consonant"]
+      ]},
+    {"title": "Quiet u and i", "items": [
+        ["It is (polite)", "です", "です", "Desu", "Sounds like \"dess\".", "silent"],
+        ["Thank you", "ありがとうございます", "ありがとう ございます", "Arigatō gozaimasu", "The end sounds like \"go-zai-mass\".", "silent"],
+        ["I like it", "好きです", "すき です", "Suki desu", "Sounds like \"ski dess\".", "silent"],
+        ["Excuse me", "すみません", "すみません", "Sumimasen", "Su is light: \"s'mee-mah-sen\".", "silent"],
+        ["Station", "駅", "えき", "Eki", "Eh-kee. Not ee-kee."]
+      ]},
+    {"title": "The R sound", "items": [
+        ["Ramen", "ラーメン", "ラーメン", "Rāmen", "Light tap r, long ā: \"lah-men\" is closer than \"ray-men\".", "r"],
+        ["Toilet", "トイレ", "トイレ", "Toire", "\"Toy-reh\", with a light tapped r.", "r bathroom"],
+        ["Pretty / clean", "きれい", "きれい", "Kirei", "Kee-reh, with a tapped r.", "r"],
+        ["Japanese inn", "旅館", "りょかん", "Ryokan", "Two beats: ryo-kan. Not ree-oh-kan.", "r"],
+        ["Arigatō", "ありがとう", "ありがとう", "Arigatō", "The r is a quick tongue tap, like the tt in American \"butter\".", "r"]
+      ]}
+  ]
+}

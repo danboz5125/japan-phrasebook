@@ -1,0 +1,56 @@
+{
+  "sections": [
+    {"title": "Konbini", "items": [
+        ["No bag, thanks", "袋は大丈夫です", "ふくろは だいじょうぶ です", "Fukuro wa daijōbu desu", "Or just daijōbu desu with a small wave.", "bag decline"],
+        ["A bag, please", "袋をお願いします", "ふくろを おねがい します", "Fukuro o onegai shimasu", "Bags cost a few yen.", "bag"],
+        ["Please heat it up", "温めてください", "あたためて ください", "Atatamete kudasai", "For bentō, pasta and noodles.", "heat warm microwave bento"],
+        ["No need to heat it", "温めなくて大丈夫です", "あたためなくて だいじょうぶ です", "Atatamenakute daijōbu desu", "", "heat warm microwave"],
+        ["Chopsticks, please", "お箸をお願いします", "おはしを おねがい します", "O-hashi o onegai shimasu", "", "chopsticks"],
+        ["A spoon, please", "スプーンをお願いします", "スプーンを おねがい します", "Supūn o onegai shimasu", "", "spoon"],
+        ["No receipt, thanks", "レシートは大丈夫です", "レシートは だいじょうぶ です", "Reshīto wa daijōbu desu", "Or drop it in the little box by the register.", "receipt decline"],
+        ["Suica, please (paying)", "スイカでお願いします", "スイカで おねがい します", "Suika de onegai shimasu", "Then tap on the reader. Locals often say kōtsūkei de for any IC card.", "ic card pay suica pasmo icoca"],
+        ["Card, please (paying)", "カードでお願いします", "カードで おねがい します", "Kādo de onegai shimasu", "", "credit card pay"],
+        ["Where's the ATM?", "ATMはどこですか？", "エーティーエムは どこ ですか？", "Ē-tī-emu wa doko desu ka?", "7-Eleven ATMs take foreign cards.", "atm cash money"],
+        ["May I use the toilet?", "トイレを借りてもいいですか？", "トイレを かりても いい ですか？", "Toire o karite mo ii desu ka?", "Most konbini say yes. Asking first is polite.", "toilet restroom bathroom"],
+        ["Is there a trash can?", "ごみ箱はありますか？", "ごみばこは ありますか？", "Gomibako wa arimasu ka?", "Public bins are rare. Konbini often have some by the door.", "trash garbage bin"]
+      ]},
+    {"title": "Browsing & sizes", "items": [
+        ["How much is this?", "これはいくらですか？", "これは いくら ですか？", "Kore wa ikura desu ka?", "", "price cost"],
+        ["Just looking, thanks", "見ているだけです", "みて いる だけ です", "Mite iru dake desu", "The polite reply when staff offer help.", "browsing looking"],
+        ["Do you have (thing)?", "〜はありますか？", "〜は ありますか？", "(thing) wa arimasu ka?", "", "stock have"],
+        ["Where is (thing)?", "〜はどこにありますか？", "〜は どこに ありますか？", "(thing) wa doko ni arimasu ka?", "", "find where"],
+        ["Can I see that one?", "それを見せてもらえますか？", "それを みせて もらえますか？", "Sore o misete moraemasu ka?", "Point at it. Ask before handling anything in a glass case.", "see show"],
+        ["Do you have this in (size/color)?", "これの〜はありますか？", "これの 〜は ありますか？", "Kore no (size/color) wa arimasu ka?", "Say the size (S, M, L) or color. See Colors & sizes in Words.", "size color"],
+        ["Do you have a bigger size?", "もっと大きいサイズはありますか？", "もっと おおきい サイズは ありますか？", "Motto ōkii saizu wa arimasu ka?", "Japanese sizes run small. Try one size up.", "size large bigger"],
+        ["Do you have a smaller size?", "もっと小さいサイズはありますか？", "もっと ちいさい サイズは ありますか？", "Motto chiisai saizu wa arimasu ka?", "", "size small smaller"],
+        ["Do you have other colors?", "ほかの色はありますか？", "ほかの いろは ありますか？", "Hoka no iro wa arimasu ka?", "", "color"],
+        ["Can I try it on?", "試着してもいいですか？", "しちゃく しても いい ですか？", "Shichaku shite mo ii desu ka?", "Shoes off in the fitting room. Use the face cover if offered.", "fitting room try on"],
+        ["It's a bit small", "ちょっと小さいです", "ちょっと ちいさい です", "Chotto chiisai desu", "", "size small"],
+        ["It's a bit big", "ちょっと大きいです", "ちょっと おおきい です", "Chotto ōkii desu", "", "size big"],
+        ["Do you have something cheaper?", "もう少し安いのはありますか？", "もう すこし やすいのは ありますか？", "Mō sukoshi yasui no wa arimasu ka?", "Asking is fine. Haggling isn't.", "cheaper price"]
+      ]},
+    {"title": "Deciding & paying", "items": [
+        ["I'll take it", "これにします", "これに します", "Kore ni shimasu", "", "buy decide"],
+        ["I'll think about it", "ちょっと考えます", "ちょっと かんがえます", "Chotto kangaemasu", "The polite way to walk away without buying.", "decline maybe"],
+        ["Can I pay by card?", "カードで払えますか？", "カードで はらえますか？", "Kādo de haraemasu ka?", "", "credit card pay"],
+        ["Can I shop tax-free?", "免税できますか？", "めんぜい できますか？", "Menzei dekimasu ka?", "Bring your physical passport. Look for the Tax-Free sign.", "tax free duty"],
+        ["Tax-free, please", "免税でお願いします", "めんぜいで おねがい します", "Menzei de onegai shimasu", "", "tax free duty"],
+        ["Could you gift-wrap it?", "プレゼント用に包んでもらえますか？", "プレゼントように つつんで もらえますか？", "Purezento-yō ni tsutsunde moraemasu ka?", "Often free, especially at department stores.", "gift wrap present"],
+        ["Can I have some small bags for gifts?", "小分けの袋をもらえますか？", "こわけの ふくろを もらえますか？", "Kowake no fukuro o moraemasu ka?", "Extra small bags for handing out souvenirs. A very normal request.", "gift bag souvenir omiyage"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Do you need a bag?", "袋はご利用ですか？", "ふくろは ごりよう ですか？", "Fukuro wa go-riyō desu ka?", "Answer daijōbu desu (no) or onegai shimasu (yes).", "bag"],
+        ["Shall I put it in a bag?", "袋お付けしますか？", "ふくろ おつけ しますか？", "Fukuro o-tsuke shimasu ka?", "Same question. Answer daijōbu desu or onegai shimasu.", "bag"],
+        ["Shall I heat it up?", "温めますか？", "あたためますか？", "Atatamemasu ka?", "Answer hai, onegai shimasu or daijōbu desu.", "heat warm microwave"],
+        ["Do you need chopsticks?", "お箸はご利用ですか？", "おはしは ごりよう ですか？", "O-hashi wa go-riyō desu ka?", "Answer hai or daijōbu desu.", "chopsticks"],
+        ["Shall I add a spoon?", "スプーンはお付けしますか？", "スプーンは おつけ しますか？", "Supūn wa o-tsuke shimasu ka?", "Answer hai or daijōbu desu.", "spoon"],
+        ["Do you have a points card?", "ポイントカードはお持ちですか？", "ポイントカードは おもち ですか？", "Pointo kādo wa o-mochi desu ka?", "Answer arimasen (no), or a small head shake.", "points card loyalty"],
+        ["How would you like to pay?", "お支払い方法はいかがなさいますか？", "おしはらい ほうほうは いかが なさいますか？", "O-shiharai hōhō wa ikaga nasaimasu ka?", "Answer genkin de (cash), kādo de (card) or Suika de.", "pay cash card"],
+        ["Please pay at that machine", "お支払いはあちらの機械でお願いします", "おしはらいは あちらの きかいで おねがい します", "O-shiharai wa achira no kikai de onegai shimasu", "The clerk scans, you pay at the machine beside the register.", "pay machine register"],
+        ["Please touch the screen", "画面のタッチをお願いします", "がめんの タッチを おねがい します", "Gamen no tatchi o onegai shimasu", "Buying alcohol: tap the button saying you're 20 or older.", "alcohol age screen"],
+        ["May I see your passport?", "パスポートをお願いできますか？", "パスポートを おねがい できますか？", "Pasupōto o onegai dekimasu ka?", "For tax-free. They need the real passport, not a photo.", "tax free passport"],
+        ["Is it a gift?", "プレゼント用ですか？", "プレゼントよう ですか？", "Purezento-yō desu ka?", "Say hai and they may wrap it for free.", "gift wrap"],
+        ["Let me check our stock", "在庫を確認してまいります", "ざいこを かくにん して まいります", "Zaiko o kakunin shite mairimasu", "They're going to look. Wait a moment.", "stock"]
+      ]}
+  ]
+}

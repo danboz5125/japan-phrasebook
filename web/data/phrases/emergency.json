@@ -1,0 +1,64 @@
+{
+  "sections": [
+    {"title": "Urgent help", "items": [
+        ["Help!", "助けて！", "たすけて！", "Tasukete!", "", "help emergency"],
+        ["Please call an ambulance!", "救急車を呼んでください！", "きゅうきゅうしゃを よんで ください！", "Kyūkyūsha o yonde kudasai!", "Phone: 119 for ambulance and fire.", "ambulance 119 emergency"],
+        ["Please call the police!", "警察を呼んでください！", "けいさつを よんで ください！", "Keisatsu o yonde kudasai!", "Phone: 110 for police.", "police 110 emergency"],
+        ["Fire!", "火事だ！", "かじだ！", "Kaji da!", "", "fire"],
+        ["Watch out!", "危ない！", "あぶない！", "Abunai!", "", "danger careful"],
+        ["Thief!", "どろぼう！", "どろぼう！", "Dorobō!", "", "thief stolen"],
+        ["It's an emergency", "緊急です", "きんきゅう です", "Kinkyū desu", "", "emergency urgent"],
+        ["Does anyone speak English?", "英語を話せる人はいますか？", "えいごを はなせる ひとは いますか？", "Eigo o hanaseru hito wa imasu ka?", "", "english"]
+      ]},
+    {"title": "Feeling sick", "items": [
+        ["I feel sick", "気分が悪いです", "きぶんが わるい です", "Kibun ga warui desu", "", "ill unwell sick"],
+        ["I need to see a doctor", "医者に診てもらいたいです", "いしゃに みて もらいたい です", "Isha ni mite moraitai desu", "", "doctor"],
+        ["Where is the hospital?", "病院はどこですか？", "びょういんは どこ ですか？", "Byōin wa doko desu ka?", "Careful: byōin is hospital, biyōin is a hair salon.", "hospital"],
+        ["Where is a pharmacy?", "薬局はどこですか？", "やっきょくは どこ ですか？", "Yakkyoku wa doko desu ka?", "", "pharmacy chemist"],
+        ["Is there a drugstore near here?", "この近くにドラッグストアはありますか？", "この ちかくに ドラッグストアは ありますか？", "Kono chikaku ni doraggusutoa wa arimasu ka?", "", "drugstore"],
+        ["It hurts here", "ここが痛いです", "ここが いたい です", "Koko ga itai desu", "Point to where.", "pain hurt"],
+        ["I have a headache", "頭が痛いです", "あたまが いたい です", "Atama ga itai desu", "", "headache"],
+        ["I have a stomachache", "お腹が痛いです", "おなかが いたい です", "Onaka ga itai desu", "", "stomach"],
+        ["I have a fever", "熱があります", "ねつが あります", "Netsu ga arimasu", "", "fever temperature"],
+        ["I have a cold", "風邪をひきました", "かぜを ひきました", "Kaze o hikimashita", "Wear a mask in public if you have a cold. It's expected.", "cold flu"],
+        ["I feel dizzy", "めまいがします", "めまいが します", "Memai ga shimasu", "", "dizzy"],
+        ["I feel nauseous", "吐き気がします", "はきけが します", "Hakike ga shimasu", "", "nausea vomit"],
+        ["I have diarrhea", "下痢をしています", "げりを して います", "Geri o shite imasu", "", "diarrhea stomach"],
+        ["I'm injured", "怪我をしました", "けがを しました", "Kega o shimashita", "", "injury hurt"],
+        ["I'm allergic to (medicine)", "〜にアレルギーがあります", "〜に アレルギーが あります", "(medicine) ni arerugī ga arimasu", "", "allergy"],
+        ["I take this medicine", "この薬を飲んでいます", "この くすりを のんで います", "Kono kusuri o nonde imasu", "Show the box or bottle.", "medicine"],
+        ["Do you have cold medicine?", "風邪薬はありますか？", "かぜぐすりは ありますか？", "Kazegusuri wa arimasu ka?", "", "medicine cold"],
+        ["Do you have painkillers?", "痛み止めはありますか？", "いたみどめは ありますか？", "Itamidome wa arimasu ka?", "", "painkiller ibuprofen"],
+        ["Do you have stomach medicine?", "胃腸薬はありますか？", "いちょうやくは ありますか？", "Ichōyaku wa arimasu ka?", "", "medicine stomach"],
+        ["I have travel insurance", "旅行保険に入っています", "りょこう ほけんに はいって います", "Ryokō hoken ni haitte imasu", "", "insurance"]
+      ]},
+    {"title": "Lost & stolen", "items": [
+        ["I lost my wallet", "財布をなくしました", "さいふを なくしました", "Saifu o nakushimashita", "Lost items are very often turned in. Ask at the station or a kōban.", "lost wallet"],
+        ["I lost my passport", "パスポートをなくしました", "パスポートを なくしました", "Pasupōto o nakushimashita", "", "lost passport"],
+        ["I lost my phone", "スマホをなくしました", "スマホを なくしました", "Sumaho o nakushimashita", "", "lost phone"],
+        ["I left my bag on the train", "電車にかばんを忘れました", "でんしゃに かばんを わすれました", "Densha ni kaban o wasuremashita", "Note the line, the time and which car you were in.", "lost bag train"],
+        ["Where is the lost and found?", "忘れ物センターはどこですか？", "わすれもの センターは どこ ですか？", "Wasuremono sentā wa doko desu ka?", "", "lost found"],
+        ["My bag was stolen", "かばんを盗まれました", "かばんを ぬすまれました", "Kaban o nusumaremashita", "", "stolen theft"],
+        ["Where is the police box?", "交番はどこですか？", "こうばんは どこ ですか？", "Kōban wa doko desu ka?", "", "police koban"],
+        ["I need a report for my insurance", "保険のために証明書が必要です", "ほけんの ために しょうめいしょが ひつよう です", "Hoken no tame ni shōmeisho ga hitsuyō desu", "", "police report insurance"],
+        ["Please contact the US Embassy", "アメリカ大使館に連絡してください", "アメリカ たいしかんに れんらく して ください", "Amerika taishikan ni renraku shite kudasai", "", "embassy"]
+      ]},
+    {"title": "Earthquakes & disasters", "items": [
+        ["Earthquake!", "地震だ！", "じしんだ！", "Jishin da!", "Get under a table, protect your head, stay away from windows.", "earthquake"],
+        ["What should I do?", "どうすればいいですか？", "どうすれば いい ですか？", "Dō sureba ii desu ka?", "", "help"],
+        ["Where is the evacuation area?", "避難所はどこですか？", "ひなんじょは どこ ですか？", "Hinanjo wa doko desu ka?", "", "evacuation shelter"],
+        ["Is it safe?", "安全ですか？", "あんぜん ですか？", "Anzen desu ka?", "", "safe"],
+        ["Is there a tsunami warning?", "津波警報は出ていますか？", "つなみ けいほうは でて いますか？", "Tsunami keihō wa dete imasu ka?", "", "tsunami warning"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Are you OK?", "大丈夫ですか？", "だいじょうぶ ですか？", "Daijōbu desu ka?", "Answer daijōbu desu (I'm OK) or the problem.", "okay"],
+        ["Where does it hurt?", "どこが痛いですか？", "どこが いたい ですか？", "Doko ga itai desu ka?", "Point and say koko desu (here).", "pain"],
+        ["Do you have insurance?", "保険はありますか？", "ほけんは ありますか？", "Hoken wa arimasu ka?", "", "insurance"],
+        ["Please fill in this form", "こちらにご記入ください", "こちらに ごきにゅう ください", "Kochira ni go-kinyū kudasai", "", "form"],
+        ["Take this after meals", "食後に飲んでください", "しょくごに のんで ください", "Shokugo ni nonde kudasai", "", "medicine"],
+        ["Three times a day", "一日三回", "いちにち さんかい", "Ichinichi sankai", "", "medicine"],
+        ["Protect your head!", "頭を守ってください！", "あたまを まもって ください！", "Atama o mamotte kudasai!", "", "earthquake"],
+        ["Evacuate! / Run!", "逃げてください！", "にげて ください！", "Nigete kudasai!", "", "evacuate"]
+      ]}
+  ]
+}

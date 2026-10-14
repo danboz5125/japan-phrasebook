@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Japan Phrasebook</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <nav id="rail" aria-label="Main"></nav>
+  <header id="top">
+    <a href="#/" class="brand" aria-label="Home"><span lang="ja">旅</span></a>
+    <div class="searchbox">
+      <svg class="sicon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      <input id="q" type="search" placeholder="Search: train, toilet, arigato…" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search" aria-label="Search phrases and words">
+      <button id="qclear" type="button" aria-label="Clear search" hidden>×</button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"><p class="loading">Loading…</p></main>
+  <nav id="tabs" aria-label="Sections"></nav>
+</div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>

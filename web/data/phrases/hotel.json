@@ -1,0 +1,64 @@
+{
+  "sections": [
+    {"title": "Check-in & check-out", "items": [
+        ["I'd like to check in", "チェックインをお願いします", "チェックインを おねがい します", "Chekkuin o onegai shimasu", "", "arrive checkin"],
+        ["The reservation is under (name)", "〜の名前で予約しています", "〜の なまえで よやく して います", "(name) no namae de yoyaku shite imasu", "Say your surname first, as it is on the booking.", "booking reservation"],
+        ["Can I check in early?", "早めにチェックインできますか？", "はやめに チェックイン できますか？", "Hayame ni chekkuin dekimasu ka?", "", "early checkin"],
+        ["What time is check-out?", "チェックアウトは何時ですか？", "チェックアウトは なんじ ですか？", "Chekkuauto wa nanji desu ka?", "", "checkout time"],
+        ["Can I check out late?", "レイトチェックアウトはできますか？", "レイトチェックアウトは できますか？", "Reito chekkuauto wa dekimasu ka?", "Often possible for a fee. Ask the day before.", "late checkout"],
+        ["I'd like to check out", "チェックアウトをお願いします", "チェックアウトを おねがい します", "Chekkuauto o onegai shimasu", "Hand over the key. Many hotels have a key drop box instead.", "checkout leave"]
+      ]},
+    {"title": "Luggage", "items": [
+        ["Can you keep my luggage until check-in?", "チェックインまで荷物を預かってもらえますか？", "チェックインまで にもつを あずかって もらえますか？", "Chekkuin made nimotsu o azukatte moraemasu ka?", "Free at almost every hotel. You'll get a claim tag.", "bags store luggage"],
+        ["Can you keep my luggage after check-out?", "チェックアウトの後、荷物を預かってもらえますか？", "チェックアウトの あと、 にもつを あずかって もらえますか？", "Chekkuauto no ato, nimotsu o azukatte moraemasu ka?", "", "bags store luggage"],
+        ["I'm here to pick up my luggage", "荷物を受け取りに来ました", "にもつを うけとりに きました", "Nimotsu o uketori ni kimashita", "Show the claim tag.", "bags collect luggage"],
+        ["Can I send my luggage to (place)?", "〜まで荷物を送れますか？", "〜まで にもつを おくれますか？", "(place) made nimotsu o okuremasu ka?", "Luggage forwarding (takkyūbin). Usually arrives the next day.", "ship forward takkyubin luggage"]
+      ]},
+    {"title": "Questions & problems", "items": [
+        ["What's the Wi-Fi password?", "Wi-Fiのパスワードは何ですか？", "ワイファイの パスワードは なん ですか？", "Waifai no pasuwādo wa nan desu ka?", "", "wifi internet password"],
+        ["What time is breakfast?", "朝食は何時からですか？", "ちょうしょくは なんじ から ですか？", "Chōshoku wa nanji kara desu ka?", "", "breakfast time"],
+        ["Where is breakfast?", "朝食はどこですか？", "ちょうしょくは どこ ですか？", "Chōshoku wa doko desu ka?", "", "breakfast"],
+        ["Can I have extra towels?", "タオルを追加でもらえますか？", "タオルを ついかで もらえますか？", "Taoru o tsuika de moraemasu ka?", "", "towel"],
+        ["The room is too hot", "部屋が暑いです", "へやが あつい です", "Heya ga atsui desu", "", "hot temperature"],
+        ["The room is too cold", "部屋が寒いです", "へやが さむい です", "Heya ga samui desu", "", "cold temperature"],
+        ["The air conditioner won't turn on", "エアコンがつきません", "エアコンが つきません", "Eakon ga tsukimasen", "First check the key-card slot by the door. It powers the room.", "ac aircon heater broken"],
+        ["The TV won't turn on", "テレビがつきません", "テレビが つきません", "Terebi ga tsukimasen", "", "tv broken"],
+        ["How do I use this?", "これの使い方を教えてください", "これの つかいかたを おしえて ください", "Kore no tsukaikata o oshiete kudasai", "Point at the remote, the toilet panel or the kettle.", "how use remote"],
+        ["I lost my key", "鍵をなくしました", "かぎを なくしました", "Kagi o nakushimashita", "", "key card lost"],
+        ["I left my key in the room", "部屋に鍵を忘れました", "へやに かぎを わすれました", "Heya ni kagi o wasuremashita", "Doors lock by themselves. Say this at the front desk.", "locked out key"],
+        ["Can I borrow a charger?", "充電器を借りられますか？", "じゅうでんきを かりられますか？", "Jūdenki o kariraremasu ka?", "", "charger phone adapter"],
+        ["Is there a laundromat?", "コインランドリーはありますか？", "コインランドリーは ありますか？", "Koin randorī wa arimasu ka?", "Many hotels have coin washers. Detergent is often automatic.", "laundry wash"],
+        ["Could you call a taxi?", "タクシーを呼んでもらえますか？", "タクシーを よんで もらえますか？", "Takushī o yonde moraemasu ka?", "", "taxi cab"],
+        ["Is there a konbini nearby?", "近くにコンビニはありますか？", "ちかくに コンビニは ありますか？", "Chikaku ni konbini wa arimasu ka?", "", "convenience store nearby"],
+        ["Where's the nearest station?", "一番近い駅はどこですか？", "いちばん ちかい えきは どこ ですか？", "Ichiban chikai eki wa doko desu ka?", "", "station train nearest"]
+      ]},
+    {"title": "Ryokan", "items": [
+        ["What time is dinner?", "夕食は何時ですか？", "ゆうしょくは なんじ ですか？", "Yūshoku wa nanji desu ka?", "", "dinner time"],
+        ["Dinner at 7, please", "夕食は7時でお願いします", "ゆうしょくは しちじで おねがい します", "Yūshoku wa shichi-ji de onegai shimasu", "Swap the time: roku-ji (6), hachi-ji (8).", "dinner time"],
+        ["Can we change the dinner time?", "夕食の時間を変えられますか？", "ゆうしょくの じかんを かえられますか？", "Yūshoku no jikan o kaeraremasu ka?", "", "dinner time change"],
+        ["We'll be a little late for dinner", "夕食に少し遅れます", "ゆうしょくに すこし おくれます", "Yūshoku ni sukoshi okuremasu", "Tell them early. The kitchen times every course.", "dinner late"],
+        ["Could you lay out the futon?", "布団を敷いてもらえますか？", "ふとんを しいて もらえますか？", "Futon o shiite moraemasu ka?", "Staff usually do it while you're at dinner.", "futon bed"],
+        ["A bigger yukata, please", "大きいサイズの浴衣をお願いします", "おおきい サイズの ゆかたを おねがい します", "Ōkii saizu no yukata o onegai shimasu", "Ryokan yukata often run short on tall guests.", "yukata robe size"],
+        ["How do I wear the yukata?", "浴衣の着方を教えてください", "ゆかたの きかたを おしえて ください", "Yukata no kikata o oshiete kudasai", "Staff are happy to show you.", "yukata robe"],
+        ["Can I book the private bath?", "貸切風呂を予約できますか？", "かしきりぶろを よやく できますか？", "Kashikiri-buro o yoyaku dekimasu ka?", "Good if you have tattoos or want to bathe together.", "private bath kashikiri tattoo"],
+        ["Where is the large bath?", "大浴場はどこですか？", "だいよくじょうは どこ ですか？", "Daiyokujō wa doko desu ka?", "Daiyokujō is the big shared bath.", "bath onsen"],
+        ["Until what time is the bath open?", "お風呂は何時までですか？", "おふろは なんじ まで ですか？", "O-furo wa nanji made desu ka?", "", "bath hours"],
+        ["Which is the men's bath tonight?", "今夜の男湯はどちらですか？", "こんやの おとこゆは どちら ですか？", "Kon'ya no otoko-yu wa dochira desu ka?", "Many ryokan swap the baths overnight. Check the curtain: 男 men, 女 women.", "men bath swap"],
+        ["Are slippers OK here?", "ここはスリッパで大丈夫ですか？", "ここは スリッパで だいじょうぶ ですか？", "Koko wa surippa de daijōbu desu ka?", "Never on tatami. Toilet slippers stay in the toilet.", "slippers tatami"],
+        ["The food was wonderful", "お料理、とてもおいしかったです", "おりょうり、 とても おいしかった です", "O-ryōri, totemo oishikatta desu", "Staff will be delighted to hear it.", "dinner compliment"],
+        ["Thank you for everything (leaving)", "お世話になりました", "おせわに なりました", "O-sewa ni narimashita", "Say it at check-out. Staff often see you off with a bow.", "thanks goodbye"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["May I have your name?", "お名前をお伺いしてもよろしいですか？", "おなまえを おうかがい しても よろしい ですか？", "O-namae o o-ukagai shite mo yoroshii desu ka?", "Say your surname as it is on the booking.", "name"],
+        ["May I see your passport?", "パスポートを拝見してもよろしいですか？", "パスポートを はいけん しても よろしい ですか？", "Pasupōto o haiken shite mo yoroshii desu ka?", "Required for foreign guests. They'll copy it and hand it back.", "passport"],
+        ["Please fill this in", "こちらにご記入ください", "こちらに ごきにゅう ください", "Kochira ni go-kinyū kudasai", "A registration card: name, address, passport number.", "form"],
+        ["Please sign here", "こちらにサインをお願いします", "こちらに サインを おねがい します", "Kochira ni sain o onegai shimasu", "", "sign signature"],
+        ["Breakfast is from 7 to 9", "朝食は7時から9時までです", "ちょうしょくは しちじ から くじ まで です", "Chōshoku wa shichi-ji kara ku-ji made desu", "Listen for the times. Say mō ichido if you miss them.", "breakfast time"],
+        ["The bath is open until midnight", "お風呂は夜12時までご利用いただけます", "おふろは よる じゅうにじ まで ごりよう いただけます", "O-furo wa yoru jūni-ji made go-riyō itadakemasu", "Missed the time? Ask nanji made desu ka?", "bath hours"],
+        ["What time would you like dinner?", "ご夕食は何時になさいますか？", "ごゆうしょくは なんじに なさいますか？", "Go-yūshoku wa nanji ni nasaimasu ka?", "Answer with a time: shichi-ji de onegai shimasu (7 o'clock).", "dinner time"],
+        ["Check-out is at 10", "チェックアウトは10時です", "チェックアウトは じゅうじ です", "Chekkuauto wa jū-ji desu", "", "checkout time"],
+        ["Please take your shoes off here", "こちらで靴をお脱ぎください", "こちらで くつを おぬぎ ください", "Kochira de kutsu o o-nugi kudasai", "At the ryokan entrance. Step up onto the wood in socks or slippers.", "shoes"],
+        ["Shall I lay out your futon?", "お布団をお敷きしてもよろしいですか？", "おふとんを おしき しても よろしい ですか？", "O-futon o o-shiki shite mo yoroshii desu ka?", "Answer hai, onegai shimasu. You can stay in the room.", "futon"]
+      ]}
+  ]
+}

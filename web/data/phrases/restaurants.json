@@ -1,0 +1,105 @@
+{
+  "sections": [
+    {"title": "Getting a table", "items": [
+        ["One person", "一人です", "ひとり です", "Hitori desu", "Answer to \"how many people?\". Holding up fingers works too.", "party people seat"],
+        ["Two people", "二人です", "ふたり です", "Futari desu", "", "party people seat"],
+        ["Three people", "三人です", "さんにん です", "San-nin desu", "", "party people seat"],
+        ["Four people", "四人です", "よにん です", "Yo-nin desu", "", "party people seat"],
+        ["Are there seats available?", "空いていますか？", "あいて いますか？", "Aite imasu ka?", "", "table open"],
+        ["How long is the wait?", "どのくらい待ちますか？", "どのくらい まちますか？", "Dono kurai machimasu ka?", "", "queue line"],
+        ["We'll wait", "待ちます", "まちます", "Machimasu"],
+        ["I have a reservation", "予約しています", "よやく して います", "Yoyaku shite imasu", "", "booking"],
+        ["The reservation is under (name)", "〜の名前で予約しています", "〜の なまえで よやく して います", "(name) no namae de yoyaku shite imasu", "Say your name first.", "booking"],
+        ["The counter is fine", "カウンターでも大丈夫です", "カウンターでも だいじょうぶ です", "Kauntā demo daijōbu desu", "Counter seats are often faster to get.", "seat"],
+        ["Non-smoking seats, please", "禁煙席をお願いします", "きんえんせきを おねがい します", "Kin'en-seki o onegai shimasu", "Many small izakaya still allow smoking.", "smoke"],
+        ["Can I sit here?", "ここに座ってもいいですか？", "ここに すわっても いい ですか？", "Koko ni suwatte mo ii desu ka?", "", "seat"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["How many people?", "何名様ですか？", "なんめいさま ですか？", "Nanmei-sama desu ka?", "Answer hitori, futari, san-nin desu, or hold up fingers.", "party"],
+        ["Do you smoke?", "おタバコは吸われますか？", "おタバコは すわれますか？", "O-tabako wa suwaremasu ka?", "Answer iie (no) for non-smoking.", "smoke"],
+        ["This way, please", "こちらへどうぞ", "こちらへ どうぞ", "Kochira e dōzo"],
+        ["Have you decided?", "ご注文はお決まりですか？", "ごちゅうもんは おきまり ですか？", "Go-chūmon wa o-kimari desu ka?", "Not ready? Say mō sukoshi (a bit longer)."],
+        ["Is that everything?", "以上でよろしいですか？", "いじょうで よろしい ですか？", "Ijō de yoroshii desu ka?", "Answer hai if you're done ordering."],
+        ["Eating here?", "店内でお召し上がりですか？", "てんないで おめしあがり ですか？", "Tennai de o-meshiagari desu ka?", "Answer tennai de (here) or mochikaeri de (to go)."],
+        ["Together on one check?", "お会計はご一緒ですか？", "おかいけいは ごいっしょ ですか？", "O-kaikei wa go-issho desu ka?", "Answer issho de (together) or betsubetsu de (separate)."],
+        ["Last order", "ラストオーダーです", "ラストオーダー です", "Rasuto ōdā desu", "Kitchen closing soon. Order now or never."],
+        ["Please buy a ticket from the machine", "食券をお買い求めください", "しょっけんを おかいもとめ ください", "Shokken o o-kaimotome kudasai", "Pay at the machine by the door first.", "ticket machine"]
+      ]},
+    {"title": "Ordering", "items": [
+        ["A bit longer, please (not ready)", "もう少し待ってください", "もう すこし まって ください", "Mō sukoshi matte kudasai"],
+        ["Menu, please", "メニューをお願いします", "メニューを おねがい します", "Menyū o onegai shimasu"],
+        ["Do you have an English menu?", "英語のメニューはありますか？", "えいごの メニューは ありますか？", "Eigo no menyū wa arimasu ka?", "", "english"],
+        ["What do you recommend?", "おすすめは何ですか？", "おすすめは なん ですか？", "Osusume wa nan desu ka?", "", "recommendation special"],
+        ["This one, please (pointing)", "これをお願いします", "これを おねがい します", "Kore o onegai shimasu", "", "point"],
+        ["This and this, please", "これとこれをお願いします", "これと これを おねがい します", "Kore to kore o onegai shimasu", "", "point"],
+        ["One of these, please", "これを一つください", "これを ひとつ ください", "Kore o hitotsu kudasai", "", "one"],
+        ["Two of these, please", "これを二つください", "これを ふたつ ください", "Kore o futatsu kudasai", "", "two"],
+        ["The same as that, please", "あれと同じものをください", "あれと おなじ ものを ください", "Are to onaji mono o kudasai", "Point at someone else's dish.", "same"],
+        ["Is it spicy?", "辛いですか？", "からい ですか？", "Karai desu ka?", "", "hot"],
+        ["Not spicy, please", "辛くしないでください", "からく しないで ください", "Karaku shinaide kudasai", "", "hot mild"],
+        ["Water, please", "お水をお願いします", "おみずを おねがい します", "O-mizu o onegai shimasu", "Water and green tea are free.", "drink"],
+        ["Large portion, please", "大盛りでお願いします", "おおもりで おねがい します", "Ōmori de onegai shimasu", "Often free or cheap at ramen and rice-bowl shops.", "big size"],
+        ["Set meal, please", "定食をお願いします", "ていしょくを おねがい します", "Teishoku o onegai shimasu", "Main dish plus rice, miso soup and pickles.", "set lunch"],
+        ["Do you have a lunch set?", "ランチセットはありますか？", "ランチセットは ありますか？", "Ranchi setto wa arimasu ka?", "", "lunch"],
+        ["That's all for now", "以上です", "いじょう です", "Ijō desu", "Ends your order."],
+        ["One more, please", "もう一つお願いします", "もう ひとつ おねがい します", "Mō hitotsu onegai shimasu", "", "another"],
+        ["Chopsticks, please", "お箸をください", "おはしを ください", "O-hashi o kudasai"],
+        ["A fork, please", "フォークをください", "フォークを ください", "Fōku o kudasai"],
+        ["A spoon, please", "スプーンをください", "スプーンを ください", "Supūn o kudasai"],
+        ["Small plates for sharing, please", "取り皿をください", "とりざらを ください", "Torizara o kudasai", "", "share"],
+        ["To go, please", "持ち帰りで", "もちかえりで", "Mochikaeri de", "", "takeout take away"],
+        ["To eat here", "店内で", "てんないで", "Tennai de", "", "eat in"],
+        ["Can I take the leftovers home?", "持ち帰りできますか？", "もちかえり できますか？", "Mochikaeri dekimasu ka?", "Many restaurants say no for food safety. Don't push.", "takeout doggy bag"],
+        ["How do I use the ticket machine?", "券売機の使い方を教えてください", "けんばいきの つかいかたを おしえて ください", "Kenbaiki no tsukaikata o oshiete kudasai", "", "ticket machine ramen"]
+      ]},
+    {"title": "Diet & allergies", "items": [
+        ["I have a food allergy", "食物アレルギーがあります", "しょくもつ アレルギーが あります", "Shokumotsu arerugī ga arimasu", "", "allergy"],
+        ["I'm allergic to (food)", "〜のアレルギーがあります", "〜の アレルギーが あります", "(food) no arerugī ga arimasu", "Say the food first. See Ingredients & allergens in Words.", "allergy"],
+        ["I can't eat (food)", "〜が食べられません", "〜が たべられません", "(food) ga taberaremasen", "", "allergy diet"],
+        ["Is there (food) in this?", "これに〜は入っていますか？", "これに 〜は はいって いますか？", "Kore ni (food) wa haitte imasu ka?", "", "allergy contains"],
+        ["Without (food), please", "〜抜きでお願いします", "〜ぬきで おねがい します", "(food) nuki de onegai shimasu", "", "remove without"],
+        ["I'm vegetarian", "ベジタリアンです", "ベジタリアン です", "Bejitarian desu", "Fish stock (dashi) is in almost everything. Ask about it too.", "vegetarian vegan"],
+        ["I don't eat meat or fish", "肉と魚は食べません", "にくと さかなは たべません", "Niku to sakana wa tabemasen", "", "vegetarian"],
+        ["Is there fish stock in this?", "これにだしは入っていますか？", "これに だしは はいって いますか？", "Kore ni dashi wa haitte imasu ka?", "", "vegetarian dashi"],
+        ["I don't eat pork", "豚肉は食べません", "ぶたにくは たべません", "Butaniku wa tabemasen", "", "pork halal"],
+        ["I don't drink alcohol", "お酒は飲めません", "おさけは のめません", "O-sake wa nomemasen", "", "sober alcohol"],
+        ["No ice, please", "氷なしでお願いします", "こおり なしで おねがい します", "Kōri nashi de onegai shimasu", "", "ice"]
+      ]},
+    {"title": "During the meal", "items": [
+        ["Excuse me! (calling staff)", "すみません！", "すみません！", "Sumimasen!", "Raise a hand and say it clearly. Or press the call button on the table.", "waiter call"],
+        ["Let's eat (before eating)", "いただきます", "いただきます", "Itadakimasu", "Said with hands together before the first bite."],
+        ["It's delicious", "おいしいです", "おいしい です", "Oishii desu", "", "tasty"],
+        ["That was delicious", "おいしかったです", "おいしかった です", "Oishikatta desu", "", "tasty"],
+        ["I'm full", "お腹いっぱいです", "おなか いっぱい です", "Onaka ippai desu"],
+        ["How do I eat this?", "これはどうやって食べますか？", "これは どうやって たべますか？", "Kore wa dō yatte tabemasu ka?"],
+        ["A refill, please", "おかわりお願いします", "おかわり おねがい します", "Okawari onegai shimasu", "Rice, tea, drinks. Often free for rice at set-meal shops.", "refill more"],
+        ["This isn't what I ordered", "これは注文していません", "これは ちゅうもん して いません", "Kore wa chūmon shite imasen", "", "wrong mistake"],
+        ["Thank you for the meal (leaving)", "ごちそうさまでした", "ごちそうさま でした", "Gochisōsama deshita", "Say it to staff on the way out.", "thanks leave"]
+      ]},
+    {"title": "Ramen & sushi", "items": [
+        ["Extra noodles, please", "替え玉お願いします", "かえだま おねがい します", "Kaedama onegai shimasu", "A noodle refill into your leftover broth, at tonkotsu shops.", "ramen refill"],
+        ["Firm noodles, please", "麺かためでお願いします", "めん かためで おねがい します", "Men katame de onegai shimasu", "", "ramen"],
+        ["Soft noodles, please", "麺やわらかめでお願いします", "めん やわらかめで おねがい します", "Men yawarakame de onegai shimasu", "", "ramen"],
+        ["Normal, please", "普通でお願いします", "ふつうで おねがい します", "Futsū de onegai shimasu", "The safe answer when asked about noodle firmness, oil or saltiness.", "ramen regular"],
+        ["Light (less oil / less salt)", "少なめでお願いします", "すくなめで おねがい します", "Sukuname de onegai shimasu", "", "ramen less"],
+        ["No wasabi, please", "わさび抜きでお願いします", "わさびぬきで おねがい します", "Wasabi nuki de onegai shimasu", "", "sushi"],
+        ["Chef's choice, please", "おまかせでお願いします", "おまかせで おねがい します", "Omakase de onegai shimasu", "", "sushi omakase"],
+        ["What fish is this?", "これは何の魚ですか？", "これは なんの さかな ですか？", "Kore wa nan no sakana desu ka?", "", "sushi"]
+      ]},
+    {"title": "Paying", "items": [
+        ["Check, please", "お会計お願いします", "おかいけい おねがい します", "O-kaikei onegai shimasu", "Or make a small X with your index fingers.", "bill pay"],
+        ["Can I pay by card?", "カードで払えますか？", "カードで はらえますか？", "Kādo de haraemasu ka?", "", "credit card pay"],
+        ["Can I pay with Suica?", "スイカで払えますか？", "スイカで はらえますか？", "Suika de haraemasu ka?", "Swap in PASMO or ICOCA. They all work the same.", "ic card pay"],
+        ["Is it cash only?", "現金だけですか？", "げんきん だけ ですか？", "Genkin dake desu ka?", "", "cash pay"],
+        ["Separate checks, please", "別々でお願いします", "べつべつで おねがい します", "Betsubetsu de onegai shimasu", "", "split bill"],
+        ["Together, please", "一緒でお願いします", "いっしょで おねがい します", "Issho de onegai shimasu", "", "one bill"],
+        ["A receipt, please", "レシートをください", "レシートを ください", "Reshīto o kudasai", "", "receipt"],
+        ["An official receipt, please", "領収書をお願いします", "りょうしゅうしょを おねがい します", "Ryōshūsho o onegai shimasu", "The formal kind, for expenses.", "receipt invoice"]
+      ]},
+    {"title": "What you'll hear when paying", "hear": true, "items": [
+        ["Single payment on the card, OK?", "一括払いでよろしいですか？", "いっかつばらいで よろしい ですか？", "Ikkatsu-barai de yoroshii desu ka?", "Answer hai. It just means no installments.", "card"],
+        ["Please insert your card / tap here", "こちらにお願いします", "こちらに おねがい します", "Kochira ni onegai shimasu", "They're pointing at the card reader or the cash tray."],
+        ["Here is your change", "お釣りです", "おつり です", "O-tsuri desu"]
+      ]}
+  ]
+}

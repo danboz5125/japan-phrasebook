@@ -1,0 +1,62 @@
+{
+  "sections": [
+    {"title": "Essentials", "items": [
+        ["Hello (daytime)", "こんにちは", "こんにちは", "Konnichiwa", "From late morning until dusk."],
+        ["Good morning", "おはようございます", "おはよう ございます", "Ohayō gozaimasu", "Until about 10 or 11 am."],
+        ["Good evening", "こんばんは", "こんばんは", "Konbanwa"],
+        ["Thank you", "ありがとうございます", "ありがとう ございます", "Arigatō gozaimasu", "The safe, polite default for everyone.", "thanks"],
+        ["Thank you very much", "どうもありがとうございます", "どうも ありがとう ございます", "Dōmo arigatō gozaimasu", "", "thanks"],
+        ["Thanks (quick)", "どうも", "どうも", "Dōmo", "A quick, light thanks, like when someone holds a door.", "thanks"],
+        ["Excuse me / Sorry", "すみません", "すみません", "Sumimasen", "To get attention, to apologize lightly, or to thank someone for their trouble. Use it constantly.", "sorry attention waiter"],
+        ["I'm sorry (sincere apology)", "ごめんなさい", "ごめんなさい", "Gomen nasai", "More personal than sumimasen. With strangers, sumimasen is usually better.", "apologize"],
+        ["Excuse me, coming through", "ちょっとすみません", "ちょっと すみません", "Chotto sumimasen", "Squeezing past people on a train or in a crowd.", "pass crowd"],
+        ["Yes", "はい", "はい", "Hai", "Also means \"I'm listening\". Hai doesn't always mean agreement."],
+        ["No", "いいえ", "いいえ", "Iie", "A flat no can sound blunt. Daijōbu desu is a softer no-thanks."],
+        ["No thanks / I'm OK", "大丈夫です", "だいじょうぶ です", "Daijōbu desu", "The polite way to decline: a bag, a receipt, help. Add a small hand wave.", "decline fine okay no problem"],
+        ["Please (asking for something)", "お願いします", "おねがい します", "Onegai shimasu", "Say what you want, then onegai shimasu. Works for almost any request.", "request"],
+        ["This one, please", "これをください", "これを ください", "Kore o kudasai", "Point and say it. Kudasai = please give me.", "point order buy"],
+        ["Please, go ahead", "どうぞ", "どうぞ", "Dōzo", "Offering something, holding a door, letting someone go first."],
+        ["See you / Bye", "じゃあ、また", "じゃあ、 また", "Jā, mata", "Friendly goodbye. Sayōnara sounds final, like you'll never meet again.", "goodbye"],
+        ["Goodbye (leaving a shop or office)", "失礼します", "しつれい します", "Shitsurei shimasu", "Polite way to excuse yourself when leaving.", "goodbye leave"]
+      ]},
+    {"title": "When you're stuck", "items": [
+        ["I don't understand", "わかりません", "わかりません", "Wakarimasen"],
+        ["I understand / Got it", "わかりました", "わかりました", "Wakarimashita", "Also the polite \"OK, will do\"."],
+        ["I don't speak Japanese", "日本語が話せません", "にほんごが はなせません", "Nihongo ga hanasemasen"],
+        ["Only a little Japanese", "日本語は少しだけです", "にほんごは すこし だけ です", "Nihongo wa sukoshi dake desu"],
+        ["Is English OK?", "英語は大丈夫ですか？", "えいごは だいじょうぶ ですか？", "Eigo wa daijōbu desu ka?", "Softer than asking \"Do you speak English?\"", "english"],
+        ["Do you speak English?", "英語を話せますか？", "えいごを はなせますか？", "Eigo o hanasemasu ka?", "", "english"],
+        ["Slowly, please", "ゆっくりお願いします", "ゆっくり おねがい します", "Yukkuri onegai shimasu"],
+        ["One more time, please", "もう一度お願いします", "もう いちど おねがい します", "Mō ichido onegai shimasu", "", "repeat again"],
+        ["Could you write it down?", "書いてもらえますか？", "かいて もらえますか？", "Kaite moraemasu ka?", "Handy for prices, addresses and times.", "write"],
+        ["Could you show me?", "見せてもらえますか？", "みせて もらえますか？", "Misete moraemasu ka?"],
+        ["What is this?", "これは何ですか？", "これは なん ですか？", "Kore wa nan desu ka?"],
+        ["What is that?", "あれは何ですか？", "あれは なん ですか？", "Are wa nan desu ka?", "For things farther away."],
+        ["How do you say this in Japanese?", "これは日本語で何と言いますか？", "これは にほんごで なんと いいますか？", "Kore wa nihongo de nan to iimasu ka?"],
+        ["Just a moment, please", "ちょっと待ってください", "ちょっと まって ください", "Chotto matte kudasai", "", "wait"],
+        ["Please speak into this (translation app)", "ここに話してもらえますか？", "ここに はなして もらえますか？", "Koko ni hanashite moraemasu ka?", "Hold up your phone with Google Translate's conversation mode open.", "translate app phone"],
+        ["Is it OK? / Is that allowed?", "いいですか？", "いい ですか？", "Ii desu ka?", "Point at a thing or an action. Works for photos, seats, touching things.", "allowed permission"],
+        ["Can I ...? (point and ask)", "大丈夫ですか？", "だいじょうぶ ですか？", "Daijōbu desu ka?", "Point at something and ask. Gets you a yes or no for almost anything.", "allowed okay"]
+      ]},
+    {"title": "Quick reactions", "items": [
+        ["I see / Oh, really?", "そうですか", "そう ですか", "Sō desu ka", "Said with a falling tone, it means \"I see\"."],
+        ["That's right", "そうです", "そう です", "Sō desu"],
+        ["Really?", "本当ですか？", "ほんとう ですか？", "Hontō desu ka?"],
+        ["Sounds good / Nice", "いいですね", "いい ですね", "Ii desu ne"],
+        ["Amazing!", "すごい！", "すごい！", "Sugoi!"],
+        ["Delicious!", "おいしい！", "おいしい！", "Oishii!", "", "tasty food"],
+        ["Beautiful! / Clean", "きれい！", "きれい！", "Kirei!"],
+        ["Cute!", "かわいい！", "かわいい！", "Kawaii!"],
+        ["No problem", "問題ないです", "もんだい ない です", "Mondai nai desu"],
+        ["Good luck / Hang in there", "頑張って！", "がんばって！", "Ganbatte!"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Welcome! (as you enter a shop)", "いらっしゃいませ", "いらっしゃいませ", "Irasshaimase", "Shouted by staff when you walk in. No reply needed. A small nod is fine."],
+        ["Please wait a moment", "少々お待ちください", "しょうしょう おまち ください", "Shōshō omachi kudasai"],
+        ["Sorry to keep you waiting", "お待たせしました", "おまたせ しました", "Omatase shimashita", "Said when your food or turn arrives."],
+        ["Thank you (staff, very polite)", "ありがとうございました", "ありがとう ございました", "Arigatō gozaimashita", "Past tense. Staff say it as you leave."],
+        ["Certainly / Understood", "かしこまりました", "かしこまりました", "Kashikomarimashita", "Staff confirming your request."],
+        ["Is that all right?", "よろしいですか？", "よろしい ですか？", "Yoroshii desu ka?", "Answer hai (yes) or daijōbu desu."]
+      ]}
+  ]
+}

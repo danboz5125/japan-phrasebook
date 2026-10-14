@@ -1,0 +1,33 @@
+{
+  "items": [
+    ["Color", "色", "いろ", "iro", "", "colour"],
+    ["Red", "赤い", "あかい", "akai", "Noun form: aka.", "colour"],
+    ["Blue", "青い", "あおい", "aoi", "Also used for green traffic lights. Noun: ao.", "colour"],
+    ["White", "白い", "しろい", "shiroi", "Noun form: shiro.", "colour"],
+    ["Black", "黒い", "くろい", "kuroi", "Noun form: kuro.", "colour"],
+    ["Yellow", "黄色い", "きいろい", "kiiroi", "Noun form: kiiro.", "colour"],
+    ["Brown", "茶色い", "ちゃいろい", "chairoi", "Noun form: chairo.", "colour"],
+    ["Green", "緑", "みどり", "midori", "Say midori no (green) before a noun.", "colour"],
+    ["Purple", "紫", "むらさき", "murasaki", "", "colour violet"],
+    ["Pink", "ピンク", "ピンク", "pinku", "", "colour"],
+    ["Orange", "オレンジ", "オレンジ", "orenji", "", "colour"],
+    ["Gray", "グレー", "グレー", "gurē", "Also haiiro.", "colour grey"],
+    ["Navy blue", "紺", "こん", "kon", "", "colour dark blue"],
+    ["Light blue", "水色", "みずいろ", "mizuiro", "", "colour sky blue"],
+    ["Beige", "ベージュ", "ベージュ", "bēju", "", "colour tan"],
+    ["Gold", "金色", "きんいろ", "kin'iro", "", "colour"],
+    ["Silver", "銀色", "ぎんいろ", "gin'iro", "", "colour"],
+    ["Small size (S)", "Sサイズ", "エスサイズ", "esu saizu", "Japanese sizes run about one size smaller than US.", "size small S"],
+    ["Medium size (M)", "Mサイズ", "エムサイズ", "emu saizu", "", "size medium M"],
+    ["Large size (L)", "Lサイズ", "エルサイズ", "eru saizu", "", "size large L"],
+    ["One size fits all", "フリーサイズ", "フリーサイズ", "furī saizu", "", "size free"],
+    ["Big", "大きい", "おおきい", "ōkii", "", "large size"],
+    ["Small", "小さい", "ちいさい", "chiisai", "", "little size"],
+    ["Bigger one", "大きめ", "おおきめ", "ōkime", "Slightly larger. Ōkime no wa arimasu ka?", "size larger"],
+    ["Smaller one", "小さめ", "ちいさめ", "chiisame", "Slightly smaller.", "size smaller"],
+    ["Long", "長い", "ながい", "nagai", "", "length"],
+    ["Short", "短い", "みじかい", "mijikai", "", "length"],
+    ["Tight", "きつい", "きつい", "kitsui", "", "fit size"],
+    ["Loose", "ゆるい", "ゆるい", "yurui", "", "fit size"]
+  ]
+}

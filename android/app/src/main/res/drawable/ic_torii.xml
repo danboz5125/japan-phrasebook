@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A simple torii gate, centered in the 66dp safe zone of a 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- kasagi: the top beam, ends turned up -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M27,32 Q54,39 81,32 L80,39 Q54,45 28,39 Z" />
+    <!-- nuki: the second beam -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M33,47 L75,47 L75,52 L33,52 Z" />
+    <!-- gakuzuka: the center strut -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51.5,41 L56.5,41 L56.5,47 L51.5,47 Z" />
+    <!-- pillars, leaning in slightly -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,40 L44,40 L43,78 L36,78 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,40 L70,40 L72,78 L65,78 Z" />
+</vector>

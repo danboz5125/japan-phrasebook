@@ -1,0 +1,52 @@
+{
+  "sections": [
+    {"title": "Introductions", "items": [
+        ["Nice to meet you", "はじめまして", "はじめまして", "Hajimemashite", "Say it first, then your name, then yoroshiku onegai shimasu.", "hello meet introduce"],
+        ["My name is (name)", "〜です", "〜 です", "(name) desu", "Just your name plus desu. Never add -san to your own name.", "introduce name"],
+        ["Pleased to meet you (after your name)", "よろしくお願いします", "よろしく おねがい します", "Yoroshiku onegai shimasu", "Ends any introduction. Add a small bow.", "introduce meet"],
+        ["What's your name?", "お名前は？", "おなまえは？", "O-namae wa?", "", "name"],
+        ["I'm from America", "アメリカから来ました", "アメリカから きました", "Amerika kara kimashita", "", "usa america from"],
+        ["I'm American", "アメリカ人です", "アメリカじん です", "Amerika-jin desu", "", "usa america nationality"],
+        ["I'm from (place)", "〜から来ました", "〜から きました", "(place) kara kimashita", "Name a big city people know, like Chicago or New York.", "from city"],
+        ["It's my first time in Japan", "日本は初めてです", "にほんは はじめて です", "Nihon wa hajimete desu", "", "first time"],
+        ["I'm here sightseeing", "観光で来ました", "かんこうで きました", "Kankō de kimashita", "", "tourist sightseeing"],
+        ["It's a two-week trip", "二週間の旅行です", "にしゅうかんの りょこう です", "Nishūkan no ryokō desu", "", "two weeks trip stay"]
+      ]},
+    {"title": "Chatting", "items": [
+        ["I love Japanese food", "日本料理が大好きです", "にほん りょうりが だいすき です", "Nihon ryōri ga daisuki desu", "", "food love"],
+        ["I'm really enjoying Japan", "日本、とても楽しいです", "にほん、 とても たのしい です", "Nihon, totemo tanoshii desu", "", "fun enjoy"],
+        ["I went to Tokyo and Kyoto", "東京と京都に行きました", "とうきょうと きょうとに いきました", "Tōkyō to Kyōto ni ikimashita", "", "travel visited"],
+        ["Next, I'm going to (place)", "次は〜に行きます", "つぎは 〜に いきます", "Tsugi wa (place) ni ikimasu", "", "travel next"],
+        ["Kyoto was beautiful", "京都はきれいでした", "きょうとは きれい でした", "Kyōto wa kirei deshita", "", "beautiful kyoto"],
+        ["What do you recommend around here?", "この辺でおすすめはありますか？", "この へんで おすすめは ありますか？", "Kono hen de osusume wa arimasu ka?", "Locals love giving tips. Works for food, sights or bars.", "recommendation local tips"],
+        ["Any good places to eat nearby?", "この辺においしいお店はありますか？", "この へんに おいしい おみせは ありますか？", "Kono hen ni oishii o-mise wa arimasu ka?", "", "restaurant food local"],
+        ["Where are you from? (in Japan)", "ご出身はどちらですか？", "ごしゅっしんは どちら ですか？", "Go-shusshin wa dochira desu ka?", "Asks which part of Japan they grew up in. A great conversation starter.", "hometown where from"],
+        ["Do you live around here?", "この辺にお住まいですか？", "この へんに おすまい ですか？", "Kono hen ni o-sumai desu ka?", "", "live local"],
+        ["That's interesting", "面白いですね", "おもしろい ですね", "Omoshiroi desu ne", "", "interesting fun"],
+        ["No, I still have a long way to go", "いいえ、まだまだです", "いいえ、 まだまだ です", "Iie, mada mada desu", "The humble reply to any compliment on your Japanese.", "humble compliment"],
+        ["Can I take a picture with you?", "一緒に写真を撮ってもいいですか？", "いっしょに しゃしんを とっても いい ですか？", "Issho ni shashin o totte mo ii desu ka?", "Always ask first. Never photograph maiko in Gion without asking.", "photo selfie picture"],
+        ["Are you on Instagram?", "インスタやってますか？", "インスタ やってますか？", "Insuta yattemasu ka?", "LINE is Japan's main chat app. Swap in rain for LINE.", "instagram line contact sns"]
+      ]},
+    {"title": "Thanks & goodbyes", "items": [
+        ["Thank you for everything", "いろいろありがとうございました", "いろいろ ありがとう ございました", "Iroiro arigatō gozaimashita", "When someone has helped you a lot.", "thanks"],
+        ["Thank you for looking after me", "お世話になりました", "おせわに なりました", "O-sewa ni narimashita", "To a host or ryokan staff when you leave.", "thanks goodbye"],
+        ["It was fun", "楽しかったです", "たのしかった です", "Tanoshikatta desu", "", "fun enjoy"],
+        ["It was nice talking with you", "お話しできてうれしかったです", "おはなし できて うれしかった です", "O-hanashi dekite ureshikatta desu", "", "goodbye chat"],
+        ["Please take care", "お元気で", "おげんきで", "O-genki de", "A warm goodbye when you may not meet again.", "goodbye take care"],
+        ["Get home safely", "気をつけて", "きを つけて", "Ki o tsukete", "Said to someone heading home or traveling on.", "goodbye safe"],
+        ["Good night", "おやすみなさい", "おやすみなさい", "Oyasumi nasai", "", "night goodbye"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Where are you from?", "どちらからいらっしゃいましたか？", "どちらから いらっしゃいましたか？", "Dochira kara irasshaimashita ka?", "Answer Amerika kara kimashita.", "where from"],
+        ["Where are you from? (casual)", "どこから来たんですか？", "どこから きたん ですか？", "Doko kara kitan desu ka?", "Same question, more casual. Same answer.", "where from"],
+        ["Is this your first time in Japan?", "日本は初めてですか？", "にほんは はじめて ですか？", "Nihon wa hajimete desu ka?", "Answer hai, hajimete desu.", "first time"],
+        ["How long are you in Japan?", "どのくらい日本にいるんですか？", "どのくらい にほんに いるん ですか？", "Dono kurai Nihon ni irun desu ka?", "Answer nishūkan desu (two weeks).", "how long stay"],
+        ["Where have you been?", "どこに行きましたか？", "どこに いきましたか？", "Doko ni ikimashita ka?", "Name a place: Kyōto ni ikimashita.", "travel visited"],
+        ["Do you like Japanese food?", "日本の食べ物は好きですか？", "にほんの たべものは すき ですか？", "Nihon no tabemono wa suki desu ka?", "Answer daisuki desu! Then name a favorite.", "food like"],
+        ["Can you use chopsticks?", "お箸、使えますか？", "おはし、 つかえますか？", "O-hashi, tsukaemasu ka?", "A kind question, not a test. Answer hai, daijōbu desu.", "chopsticks"],
+        ["Can you eat natto?", "納豆は食べられますか？", "なっとうは たべられますか？", "Nattō wa taberaremasu ka?", "Sticky fermented soybeans. A classic friendly tease. Honest answers get laughs.", "natto food"],
+        ["Your Japanese is good!", "日本語、上手ですね！", "にほんご、 じょうず ですね！", "Nihongo, jōzu desu ne!", "Answer iie, mada mada desu (no, a long way to go).", "compliment japanese"],
+        ["Enjoy your trip!", "楽しんでくださいね", "たのしんで くださいね", "Tanoshinde kudasai ne", "Answer arigatō gozaimasu.", "goodbye enjoy"]
+      ]}
+  ]
+}

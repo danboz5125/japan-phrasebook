@@ -1,0 +1,128 @@
+{
+  "categories": [
+    {"id": "basics", "name": "Basics & politeness", "icon": "🙏", "blurb": "The 20 phrases that carry the whole trip.",
+     "vocab": ["questions", "people"],
+     "tips": [
+       "Sumimasen is your Swiss-army word: excuse me, sorry, and thank you for the trouble.",
+       "A small nod or bow with arigatō goes a long way. You don't need a deep bow.",
+       "Add -san after other people's names, never your own.",
+       "The u in desu and masu is barely said: \"dess\", \"mass\"."
+     ]},
+    {"id": "pronounce", "name": "How to pronounce", "icon": "🗣️", "blurb": "Five rules that make romaji sound right.",
+     "vocab": [],
+     "tips": [
+       "Vowels are always the same: a = ah, i = ee, u = oo, e = eh, o = oh.",
+       "A line over a vowel (ō, ū) means hold it twice as long. It changes the word.",
+       "Double consonants (kk, tt, pp, ss) get a tiny pause: kitte = kit-te.",
+       "R is a light tap, halfway between r, l and d.",
+       "Keep every syllable even. Japanese has no strong stress like English."
+     ]},
+    {"id": "restaurants", "name": "Restaurants", "icon": "🍜", "blurb": "Getting seated, ordering, diet needs and paying.",
+     "vocab": ["food", "ingredients", "taste"],
+     "tips": [
+       "No tipping, ever. Leaving cash can cause staff to chase you down to return it.",
+       "Say sumimasen! with a raised hand to call staff. Many tables have a call button instead.",
+       "Pay at the register by the door, not at the table. Bring the check slip with you.",
+       "Say gochisōsama deshita on the way out. Staff love hearing it.",
+       "Ramen and gyūdon shops often use a ticket machine at the entrance. Buy first, hand the ticket over."
+     ]},
+    {"id": "bars", "name": "Bars & izakaya", "icon": "🍶", "blurb": "Drinks, kanpai, cover charges and last call.",
+     "vocab": ["drinks"],
+     "tips": [
+       "Many izakaya add a small cover charge with a snack you didn't order (otōshi). It's normal, not a scam.",
+       "Wait until everyone has a drink, then kanpai together before sipping.",
+       "Pour for others, not yourself. Someone will refill your glass in return.",
+       "Nomihōdai is all-you-can-drink for a set time, usually 90 to 120 minutes."
+     ]},
+    {"id": "transit", "name": "Trains, taxis & buses", "icon": "🚆", "blurb": "IC cards, platforms, shinkansen and taxis.",
+     "vocab": ["transit", "signs"],
+     "tips": [
+       "Keep calls off and voices low on trains. Set your phone to silent mode.",
+       "Queue at the floor markings on the platform and let people off first.",
+       "Tokyo stands on the LEFT of escalators. Osaka stands on the RIGHT. Kyoto is mixed.",
+       "Taxi doors open and close by themselves. Don't touch the rear door.",
+       "An IC card (Suica, PASMO, ICOCA, or the one in Google Wallet) works on almost all trains, buses and konbini."
+     ]},
+    {"id": "hotel", "name": "Hotel & ryokan", "icon": "🏨", "blurb": "Check-in, luggage, Wi-Fi and ryokan life.",
+     "vocab": ["lodging"],
+     "tips": [
+       "Shoes off at the ryokan entrance and wherever the floor steps up. Never step on tatami in slippers.",
+       "Wear the yukata left side over right. Right over left is how the dead are dressed.",
+       "Ryokan dinner is usually at a set time. Tell them if you'll be late.",
+       "Most hotels hold luggage before check-in and after check-out for free."
+     ]},
+    {"id": "shopping", "name": "Shopping & konbini", "icon": "🛍️", "blurb": "Konbini questions, sizes, tax-free and paying.",
+     "vocab": ["shopping", "colors"],
+     "tips": [
+       "Put cash or your card in the little tray by the register, not in the cashier's hand.",
+       "Bags cost a few yen. The cashier will ask if you want one.",
+       "Tax-free needs your physical passport. From November 1, 2026 Japan switches to a refund system: pay full price, get the tax back at customs when you leave.",
+       "Haggling isn't done, except maybe at flea markets."
+     ]},
+    {"id": "sightseeing", "name": "Sightseeing & tickets", "icon": "🎟️", "blurb": "Tickets, photos, lockers and opening hours.",
+     "vocab": ["places"],
+     "tips": [
+       "Look for \"no photo\" signs (撮影禁止) inside temples and museums.",
+       "Coin lockers at stations are the easiest way to drop bags for the day. Many take IC cards.",
+       "Popular spots like teamLab or the Ghibli Museum sell out. Book ahead online."
+     ]},
+    {"id": "directions", "name": "Directions", "icon": "🧭", "blurb": "Asking the way, left, right, and near or far.",
+     "vocab": ["places"],
+     "tips": [
+       "Point at a map on your phone and ask: koko wa doko desu ka? (Where is this?)",
+       "Police boxes (kōban) are everywhere and officers happily give directions.",
+       "Station staff and konbini clerks are also good people to ask."
+     ]},
+    {"id": "numbers", "name": "Numbers, money & time", "icon": "🔢", "blurb": "Prices, times, how many and how long.",
+     "vocab": ["numbers", "time"],
+     "tips": [
+       "Japanese counts in 10,000s (man). ¥10,000 = ichi-man en. ¥30,000 = san-man en.",
+       "Ordering by count: hitotsu (1), futatsu (2), mittsu (3) works for almost any item.",
+       "Holding up fingers works fine when ordering. Nobody will mind."
+     ]},
+    {"id": "emergency", "name": "Emergencies & health", "icon": "🚑", "blurb": "Help, police, pharmacy, doctor and lost items.",
+     "vocab": ["health"],
+     "tips": [
+       "Dial 119 for ambulance or fire. Dial 110 for police.",
+       "Japan Visitor Hotline (24 h, English): 050-3816-2787.",
+       "Lost items are very often turned in. Ask at the station office or the nearest kōban.",
+       "Drugstores (doraggusutoa) sell basics. Prescription medicine comes from a pharmacy (yakkyoku)."
+     ]},
+    {"id": "onsen", "name": "Onsen, shrines & temples", "icon": "♨️", "blurb": "Bathing rules, tattoos, shrine and temple manners.",
+     "vocab": ["culture"],
+     "tips": [
+       "Wash and rinse fully at the shower stools BEFORE getting in the bath.",
+       "No swimsuits. The small towel never goes in the water. Rest it on your head or the edge.",
+       "Many onsen ban tattoos. Ask first, or use a private bath (kashikiri).",
+       "At a shrine: bow twice, clap twice, pray, bow once. At a temple: no clapping.",
+       "Walk along the sides of the shrine path. The center is for the gods."
+     ]},
+    {"id": "social", "name": "Small talk", "icon": "💬", "blurb": "Introductions, compliments and saying goodbye.",
+     "vocab": ["people", "adjectives"],
+     "tips": [
+       "People may ask where you're from and if you like Japanese food. Short answers are perfect.",
+       "Japanese people often downplay compliments. Keep yours simple and sincere."
+     ]}
+  ],
+  "vocab": [
+    {"id": "food", "name": "Food & dishes", "icon": "🍣"},
+    {"id": "ingredients", "name": "Ingredients & allergens", "icon": "🥚"},
+    {"id": "drinks", "name": "Drinks", "icon": "🍺"},
+    {"id": "taste", "name": "Menu & taste words", "icon": "😋"},
+    {"id": "transit", "name": "Transit", "icon": "🚉"},
+    {"id": "signs", "name": "Signs to recognize", "icon": "🪧"},
+    {"id": "places", "name": "Places", "icon": "🏯"},
+    {"id": "lodging", "name": "Hotel & ryokan", "icon": "🛏️"},
+    {"id": "shopping", "name": "Shopping", "icon": "🏪"},
+    {"id": "colors", "name": "Colors & sizes", "icon": "🎨"},
+    {"id": "numbers", "name": "Numbers & counting", "icon": "🔢"},
+    {"id": "time", "name": "Time & days", "icon": "🕒"},
+    {"id": "health", "name": "Health & body", "icon": "💊"},
+    {"id": "culture", "name": "Onsen & temples", "icon": "⛩️"},
+    {"id": "people", "name": "People", "icon": "👥"},
+    {"id": "questions", "name": "Question words", "icon": "❓"},
+    {"id": "verbs", "name": "Useful verbs", "icon": "🏃"},
+    {"id": "adjectives", "name": "Describing words", "icon": "✨"},
+    {"id": "weather", "name": "Weather & nature", "icon": "🌦️"}
+  ]
+}

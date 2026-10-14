@@ -1,0 +1,43 @@
+{
+  "sections": [
+    {"title": "Tickets & hours", "items": [
+        ["One adult, please", "大人一枚お願いします", "おとな いちまい おねがい します", "Otona ichi-mai onegai shimasu", "Mai counts tickets. Two adults: otona ni-mai.", "ticket admission adult"],
+        ["Two adults, please", "大人二枚お願いします", "おとな にまい おねがい します", "Otona ni-mai onegai shimasu", "", "ticket admission adult two"],
+        ["Where do I buy tickets?", "チケットはどこで買えますか？", "チケットは どこで かえますか？", "Chiketto wa doko de kaemasu ka?", "", "ticket buy"],
+        ["How much is admission?", "入場料はいくらですか？", "にゅうじょうりょうは いくら ですか？", "Nyūjōryō wa ikura desu ka?", "", "admission price fee"],
+        ["I booked online", "ネットで予約しました", "ネットで よやく しました", "Netto de yoyaku shimashita", "Show the QR code on your phone.", "reservation online qr"],
+        ["Is it open today?", "今日は開いていますか？", "きょうは あいて いますか？", "Kyō wa aite imasu ka?", "Many museums close on Mondays.", "open today"],
+        ["What time does it open?", "何時に開きますか？", "なんじに あきますか？", "Nanji ni akimasu ka?", "", "open hours"],
+        ["What time does it close?", "何時に閉まりますか？", "なんじに しまりますか？", "Nanji ni shimarimasu ka?", "", "close hours"],
+        ["What time is last entry?", "最終入場は何時ですか？", "さいしゅう にゅうじょうは なんじ ですか？", "Saishū nyūjō wa nanji desu ka?", "Often 30 minutes before closing.", "last entry admission"]
+      ]},
+    {"title": "Photos", "items": [
+        ["Can I take photos here?", "ここで写真を撮ってもいいですか？", "ここで しゃしんを とっても いい ですか？", "Koko de shashin o totte mo ii desu ka?", "Look for 撮影禁止 (no photos). Flash is often banned too.", "photo picture camera"],
+        ["Could you take our photo?", "写真を撮ってもらえますか？", "しゃしんを とって もらえますか？", "Shashin o totte moraemasu ka?", "Hand over your phone already in camera mode.", "photo picture camera"],
+        ["Just press here", "ここを押すだけです", "ここを おす だけ です", "Koko o osu dake desu", "", "photo button"],
+        ["One more, please", "もう一枚お願いします", "もう いちまい おねがい します", "Mō ichi-mai onegai shimasu", "", "photo another"],
+        ["Shall I take your photo?", "撮りましょうか？", "とりましょうか？", "Torimashō ka?", "A kind offer to another group. Often returned.", "photo offer"]
+      ]},
+    {"title": "Getting around", "items": [
+        ["Are there coin lockers?", "コインロッカーはありますか？", "コインロッカーは ありますか？", "Koin rokkā wa arimasu ka?", "", "locker luggage bags"],
+        ["How long does it take?", "どのくらいかかりますか？", "どのくらい かかりますか？", "Dono kurai kakarimasu ka?", "Works for walking time, tour length or the wait.", "time duration"],
+        ["Is there a guided tour in English?", "英語のガイドツアーはありますか？", "えいごの ガイドツアーは ありますか？", "Eigo no gaido tsuā wa arimasu ka?", "", "english tour guide"],
+        ["Is there an English audio guide?", "英語の音声ガイドはありますか？", "えいごの おんせい ガイドは ありますか？", "Eigo no onsei gaido wa arimasu ka?", "", "english audio guide"],
+        ["Is there an English pamphlet?", "英語のパンフレットはありますか？", "えいごの パンフレットは ありますか？", "Eigo no panfuretto wa arimasu ka?", "", "english map brochure"],
+        ["Where is the entrance?", "入口はどこですか？", "いりぐちは どこ ですか？", "Iriguchi wa doko desu ka?", "", "entrance way in"],
+        ["Where is the exit?", "出口はどこですか？", "でぐちは どこ ですか？", "Deguchi wa doko desu ka?", "", "exit way out"],
+        ["Where is the toilet?", "トイレはどこですか？", "トイレは どこ ですか？", "Toire wa doko desu ka?", "", "toilet restroom bathroom"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Adults?", "大人の方ですか？", "おとなの かた ですか？", "Otona no kata desu ka?", "Answer hai. Otona = adult, kodomo = child.", "adult ticket"],
+        ["How many tickets?", "何枚ですか？", "なんまい ですか？", "Nan-mai desu ka?", "Answer ichi-mai, ni-mai, or hold up fingers.", "ticket how many"],
+        ["Do you have a reservation?", "ご予約はお済みですか？", "ごよやくは おすみ ですか？", "Go-yoyaku wa o-sumi desu ka?", "Show your QR code or booking email.", "reservation"],
+        ["Photography isn't allowed", "撮影はご遠慮ください", "さつえいは ごえんりょ ください", "Satsuei wa go-enryo kudasai", "Polite but firm. Put the camera away.", "no photo"],
+        ["No photos (sign or staff)", "撮影禁止です", "さつえい きんし です", "Satsuei kinshi desu", "", "no photo"],
+        ["Please don't touch", "お手を触れないでください", "おてを ふれないで ください", "O-te o furenaide kudasai", "", "do not touch"],
+        ["Please line up here", "こちらにお並びください", "こちらに おならび ください", "Kochira ni o-narabi kudasai", "", "queue line"],
+        ["Last entry is 4:30", "最終入場は4時半です", "さいしゅう にゅうじょうは よじはん です", "Saishū nyūjō wa yo-ji han desu", "Han = half past.", "last entry time"],
+        ["We close at 5", "5時で閉館です", "ごじで へいかん です", "Go-ji de heikan desu", "", "closing time"]
+      ]}
+  ]
+}

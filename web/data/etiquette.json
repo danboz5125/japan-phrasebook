@@ -1,0 +1,70 @@
+{
+  "groups": [
+    {"title": "Eating & drinking", "icon": "🍜", "cards": [
+      {"do": false, "title": "Tip", "body": "There's no tipping anywhere: restaurants, taxis, hotels. Leaving money behind can make staff chase you to return it. Great service is just the standard."},
+      {"do": false, "title": "Stand chopsticks upright in rice", "body": "It mirrors an offering at funerals. Rest them on the chopstick rest or across your bowl instead."},
+      {"do": false, "title": "Pass food from chopsticks to chopsticks", "body": "This is also a funeral rite, used for the bones of the dead. Put the food on a small plate for the other person instead."},
+      {"do": true, "title": "Say thanks before and after eating", "body": "Itadakimasu before the first bite, gochisōsama deshita to staff on the way out.",
+       "say": ["Thank you for the meal", "ごちそうさまでした", "ごちそうさま でした", "Gochisōsama deshita", "Say it as you leave a restaurant."]},
+      {"do": true, "title": "Slurp your noodles", "body": "Slurping ramen and soba is normal, and it cools the noodles. Nobody will look twice."},
+      {"do": false, "title": "Drown sushi in soy sauce", "body": "Dip the fish side lightly, not the rice. At good sushi counters the chef may season it already. Eat it in one bite if you can."},
+      {"do": true, "title": "Pour for others, not yourself", "body": "When drinking together, top up your companions' glasses. Someone will fill yours in return. Wait for kanpai before the first sip.",
+       "say": ["Cheers!", "乾杯！", "かんぱい！", "Kanpai!"]},
+      {"do": false, "title": "Walk while eating", "body": "Eating on the move is frowned on, especially in Kyoto and Nara. Eat beside the stall or the konbini where you bought it."}
+    ]},
+    {"title": "Trains & streets", "icon": "🚆", "cards": [
+      {"do": false, "title": "Talk on the phone on trains", "body": "Phones go on silent (manner mode), calls wait until you're off. Keep conversations quiet too."},
+      {"do": true, "title": "Queue at the floor markings", "body": "Platforms have lines painted where the doors will open. Stand to the sides and let everyone off first."},
+      {"do": true, "title": "Stand on the correct side of escalators", "body": "Tokyo: stand on the LEFT, walk on the right. Osaka: stand on the RIGHT. Kyoto is mixed, so follow the person in front of you."},
+      {"do": true, "title": "Wear your backpack on your front", "body": "On crowded trains, hold your bag in front of you or put it on the overhead rack."},
+      {"do": false, "title": "Eat on local trains", "body": "Eating on commuter trains is frowned on. On the shinkansen it's normal: a bentō box (ekiben) is part of the trip."},
+      {"do": true, "title": "Leave priority seats free", "body": "Priority seats near the doors are for elderly, pregnant or disabled passengers. Give them up when someone needs one."},
+      {"do": true, "title": "Carry your trash", "body": "Public bins are rare. Keep a small bag for trash and throw it out at a konbini or your hotel. Sort bins by type."},
+      {"do": false, "title": "Smoke on the street", "body": "Many areas ban smoking outdoors, with fines. Use the marked smoking areas (喫煙所)."},
+      {"do": true, "title": "Wait for the walk signal", "body": "People wait at red lights even on empty streets, especially with kids around."}
+    ]},
+    {"title": "Shoes, homes & ryokan", "icon": "🏠", "cards": [
+      {"do": true, "title": "Take your shoes off where the floor steps up", "body": "At ryokan entrances, some restaurants, temples and fitting rooms. Point your shoes toward the door when you take them off."},
+      {"do": false, "title": "Wear slippers on tatami", "body": "Slippers come off at the edge of the tatami. Walk on it in socks or bare feet."},
+      {"do": true, "title": "Switch to the toilet slippers", "body": "Toilets often have their own slippers. Use them inside, then switch back. Walking out in toilet slippers is a classic tourist slip-up."},
+      {"do": true, "title": "Wear the yukata left over right", "body": "Fold the left side over the right side of your body. Right over left is only for dressing the dead."},
+      {"do": false, "title": "Be late for ryokan dinner", "body": "Kaiseki dinners are prepared for a set time. If you'll be late, call ahead.",
+       "say": ["We'll be a little late", "少し遅れます", "すこし おくれます", "Sukoshi okuremasu"]}
+    ]},
+    {"title": "Onsen & baths", "icon": "♨️", "cards": [
+      {"do": true, "title": "Wash completely before getting in", "body": "Sit on a stool at the shower area, soap and rinse fully. The bath is for soaking, not washing."},
+      {"do": false, "title": "Put your towel in the water", "body": "The small towel stays out of the bath. Fold it on your head or set it on the edge."},
+      {"do": false, "title": "Wear a swimsuit", "body": "Onsen are nude and separated by gender. Look for 男 (men) and 女 (women) on the curtains. Ryokan often swap which side is which overnight."},
+      {"do": true, "title": "Ask about tattoos first", "body": "Many onsen still ban tattoos. Small ones can sometimes be covered with a patch. A private bath (kashikiri) avoids the issue.",
+       "say": ["I have a tattoo. Is that OK?", "タトゥーがありますが、大丈夫ですか？", "タトゥーが ありますが、 だいじょうぶ ですか？", "Tatū ga arimasu ga, daijōbu desu ka?"]},
+      {"do": true, "title": "Dry off before the changing room", "body": "Wipe down with your small towel before stepping back into the changing area."},
+      {"do": false, "title": "Soak after drinking a lot", "body": "Hot water plus alcohol is genuinely dangerous. Drink water and keep soaks short."}
+    ]},
+    {"title": "Shrines & temples", "icon": "⛩️", "cards": [
+      {"do": true, "title": "Bow at the torii gate", "body": "A small bow before passing through the gate shows respect. Walk along the sides of the path. The center is for the gods."},
+      {"do": true, "title": "Rinse at the water basin", "body": "Ladle water over your left hand, then your right, pour a little into your left palm to rinse your mouth, then let the rest run down the handle. Never drink straight from the ladle."},
+      {"do": true, "title": "At a shrine: bow twice, clap twice, bow once", "body": "Toss a coin in the box, ring the bell if there is one, bow twice, clap twice, pray, then bow once more."},
+      {"do": false, "title": "Clap at a Buddhist temple", "body": "At temples, put your hands together quietly and bow. Clapping is for Shinto shrines only."},
+      {"do": false, "title": "Take photos where it's forbidden", "body": "Many halls ban photos inside. Look for 撮影禁止. When unsure, ask.",
+       "say": ["Can I take photos?", "写真を撮ってもいいですか？", "しゃしんを とっても いい ですか？", "Shashin o tottemo ii desu ka?"]},
+      {"do": false, "title": "Chase geiko or maiko for photos", "body": "In Kyoto's Gion, private lanes ban photos and fines apply. Never block or touch them. They're working, not performing for the street."},
+      {"do": true, "title": "Bow to the deer in Nara", "body": "Nara's deer often bow back for a cracker. They can also bite or butt when you tease them, so don't wave food around."}
+    ]},
+    {"title": "Money & shopping", "icon": "💴", "cards": [
+      {"do": true, "title": "Use the cash tray", "body": "Put your money or card in the small tray on the counter. Change usually comes back in the tray too."},
+      {"do": true, "title": "Carry some cash", "body": "Cards work in most places, but small restaurants, shrines, temples and street stalls are often cash only. 7-Eleven and Japan Post ATMs take foreign cards."},
+      {"do": false, "title": "Haggle", "body": "Prices are fixed. Bargaining is only expected at some flea markets."},
+      {"do": true, "title": "Bring your passport for tax-free", "body": "Tax-free needs your physical passport. Japan is switching to a refund system from November 1, 2026: you pay the full price, then get the tax back at customs when you leave. Keep receipts and the goods unopened. Ask the store which system they use."},
+      {"do": true, "title": "Give and receive with both hands", "body": "Business cards, gifts and anything handed to you with both hands should be received with both hands and a small nod."}
+    ]},
+    {"title": "Social manners", "icon": "🙇", "cards": [
+      {"do": true, "title": "Keep your voice down", "body": "Public spaces, trains and restaurants are quieter than in the US. Lower your volume a notch or two."},
+      {"do": true, "title": "Return a small bow", "body": "A small nod-bow is enough for a tourist. Match roughly what you receive, without overthinking it."},
+      {"do": false, "title": "Point at people", "body": "Pointing a finger at a person is rude. Gesture with an open hand instead."},
+      {"do": false, "title": "Blow your nose at the table", "body": "Step away to the restroom. Sniffling is considered more acceptable than blowing at the table."},
+      {"do": true, "title": "Wear a mask if you're sick", "body": "If you have a cold, a mask in public is expected and appreciated. Konbini and drugstores sell them."},
+      {"do": true, "title": "Say sumimasen often", "body": "Excuse me, sorry, thank you for your trouble: it covers bumping into someone, getting attention and thanking someone who helped.",
+       "say": ["Excuse me / Sorry", "すみません", "すみません", "Sumimasen"]}
+    ]}
+  ]
+}

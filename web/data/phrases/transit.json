@@ -1,0 +1,72 @@
+{
+  "sections": [
+    {"title": "Tickets & IC cards", "items": [
+        ["Where is the ticket machine?", "券売機はどこですか？", "けんばいきは どこ ですか？", "Kenbaiki wa doko desu ka?", "", "ticket buy"],
+        ["I'd like to top up my IC card", "チャージしたいです", "チャージ したい です", "Chāji shitai desu", "Charge machines are next to the ticket machines. Most take cash only.", "suica pasmo icoca charge reload"],
+        ["How much to (place)?", "〜までいくらですか？", "〜まで いくら ですか？", "(place) made ikura desu ka?", "", "fare price"],
+        ["One ticket to (place), please", "〜まで一枚お願いします", "〜まで いちまい おねがい します", "(place) made ichi-mai onegai shimasu", "", "ticket"],
+        ["Two tickets, please", "二枚お願いします", "にまい おねがい します", "Ni-mai onegai shimasu", "", "ticket"],
+        ["My card isn't working", "カードが使えません", "カードが つかえません", "Kādo ga tsukaemasen", "At a gate that beeps red, go to the staffed window at the end of the gates.", "gate error ic"],
+        ["I need to pay the fare difference", "精算したいです", "せいさん したい です", "Seisan shitai desu", "Or use the yellow fare-adjustment machine before the exit gates.", "fare adjust"],
+        ["I lost my ticket", "切符をなくしました", "きっぷを なくしました", "Kippu o nakushimashita", "", "lost"],
+        ["Can I use the JR Pass?", "JRパスは使えますか？", "ジェイアール パスは つかえますか？", "Jei-āru pasu wa tsukaemasu ka?", "", "jr pass rail"]
+      ]},
+    {"title": "Platforms & trains", "items": [
+        ["Which platform for (place)?", "〜行きは何番線ですか？", "〜いきは なんばんせん ですか？", "(place) iki wa nan-bansen desu ka?", "Signs and announcements say yuki; in speech iki is normal.", "platform track"],
+        ["Does this train go to (place)?", "この電車は〜に行きますか？", "この でんしゃは 〜に いきますか？", "Kono densha wa (place) ni ikimasu ka?", "", "train"],
+        ["Does this train stop at (place)?", "この電車は〜に止まりますか？", "この でんしゃは 〜に とまりますか？", "Kono densha wa (place) ni tomarimasu ka?", "Express and rapid trains skip stations. Ask before boarding.", "train stop express"],
+        ["Is this the platform for (place)?", "〜行きはこのホームですか？", "〜いきは この ホーム ですか？", "(place) iki wa kono hōmu desu ka?", "", "platform"],
+        ["Where do I transfer?", "どこで乗り換えますか？", "どこで のりかえますか？", "Doko de norikaemasu ka?", "", "change trains transfer"],
+        ["How many stops to (place)?", "〜まで何駅ですか？", "〜まで なんえき ですか？", "(place) made nan-eki desu ka?", "", "stations"],
+        ["What's the next station?", "次の駅は何ですか？", "つぎの えきは なん ですか？", "Tsugi no eki wa nan desu ka?", "", "next stop"],
+        ["Which exit for (place)?", "〜はどの出口ですか？", "〜は どの でぐち ですか？", "(place) wa dono deguchi desu ka?", "Big stations have dozens of exits. The right one saves 15 minutes.", "exit"],
+        ["What time is the last train?", "終電は何時ですか？", "しゅうでんは なんじ ですか？", "Shūden wa nan-ji desu ka?", "Most lines stop around midnight.", "last train night"],
+        ["Is this seat free?", "この席は空いていますか？", "この せきは あいて いますか？", "Kono seki wa aite imasu ka?", "", "seat"],
+        ["I got on the wrong train", "電車を間違えました", "でんしゃを まちがえました", "Densha o machigaemashita", "", "mistake wrong"],
+        ["I missed my stop", "乗り過ごしました", "のりすごしました", "Norisugoshimashita", "Tell the gate staff. They'll usually let you ride back without fuss.", "missed"]
+      ]},
+    {"title": "Shinkansen", "items": [
+        ["A shinkansen ticket to (place), please", "〜まで新幹線の切符をお願いします", "〜まで しんかんせんの きっぷを おねがい します", "(place) made shinkansen no kippu o onegai shimasu", "", "bullet train ticket"],
+        ["A reserved seat, please", "指定席でお願いします", "していせきで おねがい します", "Shitei-seki de onegai shimasu", "", "reserved shinkansen"],
+        ["Non-reserved seat", "自由席でお願いします", "じゆうせきで おねがい します", "Jiyū-seki de onegai shimasu", "Cheaper, first come first served. Cars 1 to 3 on most trains.", "unreserved shinkansen"],
+        ["Two seats together, please", "隣同士の席をお願いします", "となりどうしの せきを おねがい します", "Tonari-dōshi no seki o onegai shimasu", "", "together seats friend"],
+        ["A window seat, please", "窓側の席をお願いします", "まどがわの せきを おねがい します", "Madogawa no seki o onegai shimasu", "Tokyo to Kyoto: seat E on the right side faces Mt Fuji.", "window fuji"],
+        ["An aisle seat, please", "通路側の席をお願いします", "つうろがわの せきを おねがい します", "Tsūrogawa no seki o onegai shimasu", "", "aisle"],
+        ["The next train, please", "次の電車でお願いします", "つぎの でんしゃで おねがい します", "Tsugi no densha de onegai shimasu", "", "next"],
+        ["Where is car number (N)?", "〜号車はどこですか？", "〜ごうしゃは どこ ですか？", "(number) gōsha wa doko desu ka?", "Platform floor markings show where each car stops.", "car"],
+        ["I have a big suitcase", "大きいスーツケースがあります", "おおきい スーツケースが あります", "Ōkii sūtsukēsu ga arimasu", "On the Tokyo–Osaka line, bags over 160 cm total need a seat with luggage space booked.", "luggage bag suitcase"]
+      ]},
+    {"title": "Taxis", "items": [
+        ["To (place), please", "〜までお願いします", "〜まで おねがい します", "(place) made onegai shimasu", "", "taxi"],
+        ["To this address, please", "この住所までお願いします", "この じゅうしょまで おねがい します", "Kono jūsho made onegai shimasu", "Show the address on your phone. Save hotels under Mine for one-tap access.", "taxi address hotel"],
+        ["Here, please (pointing at a map)", "ここまでお願いします", "ここまで おねがい します", "Koko made onegai shimasu", "", "taxi map"],
+        ["About how much to (place)?", "〜までいくらぐらいですか？", "〜まで いくらぐらい ですか？", "(place) made ikura gurai desu ka?", "", "taxi fare"],
+        ["Here is fine", "ここでいいです", "ここで いい です", "Koko de ii desu", "", "taxi stop"],
+        ["Please stop here", "ここで止めてください", "ここで とめて ください", "Koko de tomete kudasai", "", "taxi stop"],
+        ["Please open the trunk", "トランクを開けてください", "トランクを あけて ください", "Toranku o akete kudasai", "", "taxi luggage"],
+        ["Can I pay by card?", "カードで払えますか？", "カードで はらえますか？", "Kādo de haraemasu ka?", "", "taxi card"],
+        ["A bit faster, please", "少し急いでください", "すこし いそいで ください", "Sukoshi isoide kudasai", "", "taxi hurry"],
+        ["Where is the taxi stand?", "タクシー乗り場はどこですか？", "タクシー のりばは どこ ですか？", "Takushī noriba wa doko desu ka?", "", "taxi rank"]
+      ]},
+    {"title": "Buses", "items": [
+        ["Does this bus go to (place)?", "このバスは〜に行きますか？", "この バスは 〜に いきますか？", "Kono basu wa (place) ni ikimasu ka?", "", "bus"],
+        ["Where's the bus stop for (place)?", "〜行きのバス停はどこですか？", "〜いきの バスていは どこ ですか？", "(place) iki no basu-tei wa doko desu ka?", "", "bus stop"],
+        ["Do I pay when I get off?", "降りる時に払いますか？", "おりる ときに はらいますか？", "Oriru toki ni haraimasu ka?", "Kyoto city buses: get on at the back, tap your IC card and pay at the front when you leave.", "bus pay kyoto"],
+        ["I'm getting off", "降ります", "おります", "Orimasu", "Press the stop button before your stop too.", "bus off"],
+        ["Please tell me when we reach (place)", "〜に着いたら教えてください", "〜に ついたら おしえて ください", "(place) ni tsuitara oshiete kudasai", "", "bus tell arrive"]
+      ]},
+    {"title": "What you'll hear", "hear": true, "items": [
+        ["Where to? (taxi)", "どちらまで？", "どちらまで？", "Dochira made?", "Answer with the place, then made onegai shimasu.", "taxi"],
+        ["Seat belt, please", "シートベルトをお願いします", "シートベルトを おねがい します", "Shīto beruto o onegai shimasu", "", "taxi"],
+        ["Next is (station)", "次は〜です", "つぎは 〜 です", "Tsugi wa (station) desu", "", "announcement"],
+        ["Bound for (place)", "〜行き", "〜ゆき", "(place) yuki", "On signs and announcements: where the train ends up.", "announcement"],
+        ["The doors are closing", "ドアが閉まります", "ドアが しまります", "Doa ga shimarimasu", "", "announcement"],
+        ["Please stand behind the yellow line", "黄色い線の内側までお下がりください", "きいろい せんの うちがわまで おさがり ください", "Kiiroi sen no uchigawa made o-sagari kudasai", "", "announcement platform"],
+        ["Change here for the (name) line", "〜線はお乗り換えです", "〜せんは おのりかえ です", "(name)-sen wa o-norikae desu", "", "announcement transfer"],
+        ["Watch your step", "足元にご注意ください", "あしもとに ごちゅうい ください", "Ashimoto ni go-chūi kudasai", "", "announcement"],
+        ["The train is delayed", "電車が遅れています", "でんしゃが おくれて います", "Densha ga okurete imasu", "", "delay"],
+        ["Window or aisle?", "窓側と通路側、どちらがよろしいですか？", "まどがわと つうろがわ、 どちらが よろしい ですか？", "Madogawa to tsūrogawa, dochira ga yoroshii desu ka?", "Answer madogawa (window) or tsūrogawa (aisle).", "shinkansen seat"],
+        ["Tickets, please (inspection)", "切符を拝見します", "きっぷを はいけん します", "Kippu o haiken shimasu", "The conductor wants to see your ticket or pass.", "ticket check"]
+      ]}
+  ]
+}
